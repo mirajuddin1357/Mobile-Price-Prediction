@@ -80,13 +80,13 @@
 
 📁 Mobile-Price-Prediction-Using-ML-Algorithms/
 │
-├── smartphone.csv                                    **# Individual smartphone dataset**
-├── smartphone_cleaned_v1.csv                         **# Cleaned smartphone dataset**
-├── image.png                                         **# Project Image** 
-├── mobile-price-prediction-using-ml-algorithms.ipynb **# Main Jupyter Notebook**
-├── app.py                                            **# Streamlit Web App for deployment**
-├── smartphone_price_model.pkl                        **# Trained ML model file**
-└── README.md                                         **# Full project documentation**
+├── smartphone.csv                                    # Individual smartphone dataset
+├── smartphone_cleaned_v1.csv                         # Cleaned smartphone dataset
+├── image.png                                         # Project Image
+├── mobile-price-prediction-using-ml-algorithms.ipynb # Main Jupyter Notebook
+├── app.py                                            # Streamlit Web App for deployment
+├── smartphone_price_model.pkl                        # Trained ML model file
+└── README.md                                         # Full project documentation
 ```
 
 ---
@@ -560,6 +560,7 @@
 
 - Deployed the best-performing model using Streamlit, HTML and CSS to create a web application.
 - Users can input smartphone features and get price predictions in real-time.
+
 
 
 
