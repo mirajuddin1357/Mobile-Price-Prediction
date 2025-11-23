@@ -7,22 +7,28 @@ import pandas as pd
 import sklearn
 import numpy as np
 import joblib
+import plotly.express as px
 import pickle
 from sklearn.preprocessing import OrdinalEncoder
+import os
+
+# BASE DIRECTORY SETUP FOR MODEL AND DATA LOADING
+BASE_DIR = os.path.dirname(__file__)
 
 # Load the trained model
 try:
-    x = pickle.load(open('smartphone_price_model.pkl', 'rb'))
+    x = pickle.load(open(os.path.join(BASE_DIR, 'smartphone_price_model.pkl'), 'rb'))
 except Exception as e:
     st.error(f"Error loading model: {e}")
     x = None
 
 # Load the dataset for encoding
 try:
-    dfen = pd.read_csv('smartphone_cleaned_v1.csv')
+    dfen = pd.read_csv(os.path.join(BASE_DIR, 'smartphone_cleaned_v1.csv'))
 except Exception as e:
     st.error(f"Error loading model: {e}")
     x = None
+
 
 dfen = dfen[['brand_name', 'model', 'processor_brand', 'os']]
 oe = OrdinalEncoder()
@@ -65,7 +71,7 @@ if page == "Home":
     import base64
 
     try:
-        with open("image1.png", "rb") as img_file:
+        with open(os.path.join(BASE_DIR, "image1.png"), "rb") as img_file:
             encoded_string = base64.b64encode(img_file.read()).decode()
 
         st.markdown(
@@ -105,7 +111,7 @@ if page == "Home":
 
         <h3 style="color:#FF6347;">About Modern Smartphones</h3>
         <p>
-            Smartphones today are more advanced than ever — offering powerful processors, AI features,
+            Smartphones today are more advanced than ever offering powerful processors, AI features,
             high-resolution cameras, fast charging technology, 5G connectivity, and stunning display quality.
             Whether you're buying a budget device or a flagship phone, each model brings unique features
             designed for performance, photography, gaming, and productivity.
@@ -148,7 +154,7 @@ elif page == "Predict Price":
 
     # Input Form
     import pandas as pd
-    df = pd.read_csv('smartphone_cleaned_v1.csv')
+    df = pd.read_csv(os.path.join(BASE_DIR, 'smartphone_cleaned_v1.csv'))
     brand = st.selectbox("Brand Name", df['brand_name'].unique())
     brand1 = dfen[dfen['brand_name']==brand]['brand_name_enc'].iloc[0]
 
@@ -225,7 +231,7 @@ elif page == "Predict Price":
 elif page == "Documentation":
     st.title("Project Documentation")
     import base64
-    with open("image.png", "rb") as img_file:
+    with open(os.path.join(BASE_DIR, "image.png"), "rb") as img_file:
         encoded_string = base64.b64encode(img_file.read()).decode()
 
         st.markdown(
@@ -271,7 +277,7 @@ elif page == "Documentation":
     )
 
     # Load project image
-    image = Image.open("image.png")
+    image = Image.open(os.path.join(BASE_DIR, "image.png"))
     st.markdown('')
     # Main container
     st.markdown(
@@ -325,9 +331,6 @@ elif page == "About Us":
         """,
         unsafe_allow_html=True
     )
-
-
-
 
 
 
