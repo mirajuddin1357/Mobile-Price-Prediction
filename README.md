@@ -300,7 +300,7 @@
 * **Programming:** Python
 * **Data Handling:** NumPy, Pandas
 * **Data Visualization:** Matplotlib, Seaborn, Plotly
-* **Machine Learning Tools:** Scikit-Learn, XGBoost, LightGBM, Optuna
+* **Machine Learning Tools:** Scikit-Learn, XGBoost, LightGBM, CatBoost, Optuna
 * **Coding Platforms:** VS Code, Jupyter Notebook
 * **Version Control:** Git, GitHub
 * **Web & Markdowns:** Streamlit, HTML, CSS
@@ -310,7 +310,7 @@
 
 1. **Import Libraries**
 
-- Import Libraries `numpy`, `pandas`, `matplotlib`, `seaborn`, `plotly`, `sklearn`, `optuna`, and all the necessary ML algorithms.
+- Import Libraries `numpy`, `pandas`, `matplotlib`, `seaborn`, `plotly`, `sklearn`, `xgboost`, `lightgbm`, `catboost`, `optuna`, and all the necessary ML algorithms.
 
 2. **Introduction**:
 
@@ -462,6 +462,7 @@
 
 - Deployed the best-performing model using Streamlit, HTML and CSS to create a web application.
 - Users can input smartphone features and get price predictions in real-time.
+
 
 
 
