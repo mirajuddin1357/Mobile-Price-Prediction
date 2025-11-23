@@ -17,8 +17,13 @@ except Exception as e:
     st.error(f"Error loading model: {e}")
     x = None
 
+# Load the dataset for encoding
+try:
+    dfen = pd.read_csv('smartphone_cleaned_v1.csv')
+except Exception as e:
+    st.error(f"Error loading model: {e}")
+    x = None
 
-dfen = pd.read_csv('smartphone_cleaned_v1.csv')
 dfen = dfen[['brand_name', 'model', 'processor_brand', 'os']]
 oe = OrdinalEncoder()
 dfen['brand_name_enc'] = oe.fit_transform(dfen[['brand_name']])
@@ -320,6 +325,7 @@ elif page == "About Us":
         """,
         unsafe_allow_html=True
     )
+
 
 
 
