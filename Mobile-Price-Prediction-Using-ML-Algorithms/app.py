@@ -219,7 +219,7 @@ elif page == "Predict Price":
         primary_camera_rear, int(extended_memory_available), extended_upto,
         int(resolution_width), int(resolution_height)]])
         
-        st.success(f"Predicted Price: **PKR {int(price*3.17):,}**")
+        st.success(f"Predicted Price: **PKR {int(float(price[0])*3.17):,}**")
 
 
 
@@ -330,6 +330,7 @@ elif page == "About Us":
         """,
         unsafe_allow_html=True
     )
+
 
 
 
