@@ -1,338 +1,415 @@
-# -------------------------------------------------
-# MOBILE PRICE PREDICTION FULL STREAMLIT WEBSITE
-# -------------------------------------------------
+# ---------------------------------------------------------
+# ADVANCED MOBILE INTELLIGENCE PLATFORM (AI CORE v2.0)
+# ---------------------------------------------------------
 
 import streamlit as st
 import pandas as pd
-import sklearn
 import numpy as np
-import joblib
 import pickle
-from sklearn.preprocessing import OrdinalEncoder
 import os
+import plotly.express as px
+import plotly.graph_objects as go
+from sklearn.preprocessing import OrdinalEncoder
+import base64
 
-# BASE DIRECTORY SETUP FOR MODEL AND DATA LOADING
+# BASE DIRECTORY SETUP
 BASE_DIR = os.path.dirname(__file__)
 
-# Load the trained model
-try:
-    x = pickle.load(open(os.path.join(BASE_DIR, 'smartphone_price_model.pkl'), 'rb'))
-except Exception as e:
-    st.error(f"Error loading model: {e}")
-    x = None
-
-# Load the dataset for encoding
-try:
-    dfen = pd.read_csv(os.path.join(BASE_DIR, 'smartphone_cleaned_v1.csv'))
-except Exception as e:
-    st.error(f"Error loading model: {e}")
-    x = None
-
-
-dfen = dfen[['brand_name', 'model', 'processor_brand', 'os']]
-oe = OrdinalEncoder()
-dfen['brand_name_enc'] = oe.fit_transform(dfen[['brand_name']])
-dfen['model_enc'] = oe.fit_transform(dfen[['model']])
-dfen['processor_brand_enc'] = oe.fit_transform(dfen[['processor_brand']])
-dfen['os_enc'] = oe.fit_transform(dfen[['os']])
-
-# --------------------------
-# Page Setup
-# --------------------------
-st.set_page_config(
-    page_title="Mobile Price Prediction",
-    page_icon="📱",
-    layout="wide"
-)
-
-# --------------------------------------
-# Sidebar Navigation
-# --------------------------------------
-st.sidebar.title("Mobile Price Prediction System")
-
-page = st.sidebar.radio(
-    "Navigate",
-    [
-        "Home",
-        "Predict Price",
-        "Documentation",
-        'About Us'
-    ]
-)
-
-
-# ===============================================================
-# HOME PAGE
-# ===============================================================
-if page == "Home":
-
-    # -------------------- Hero Image --------------------
-    import base64
-
+# --- UTILITY: LOAD MODEL & DATA ---
+@st.cache_resource
+def load_engine():
     try:
-        with open(os.path.join(BASE_DIR, "image1.png"), "rb") as img_file:
-            encoded_string = base64.b64encode(img_file.read()).decode()
+        model = pickle.load(open(os.path.join(BASE_DIR, 'smartphone_price_model.pkl'), 'rb'))
+        return model
+    except:
+        return None
 
-        st.markdown(
-            f"""
-            <div style="
-                text-align:center;
-                background: linear-gradient(135deg, #000000, #1a1a1a);
-                border:2px solid #ff0800;
-                border-radius:18px;
-                padding:25px;
-                box-shadow:0 0 25px rgba(255,215,0,0.3);
-                transition:all 0.4s ease;
-            ">
+@st.cache_data
+def load_data():
+    try:
+        df = pd.read_csv(os.path.join(BASE_DIR, 'smartphone_cleaned_v1.csv'))
+        return df
+    except:
+        return None
 
-            <!-- -------------------- Page Header -------------------- -->
+# --- GLOBAL STYLES (Futuristic Glassmorphism) ---
+def apply_aesthetics():
+    st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap');
 
-            <h1 style='text-align:center; color:white; background:#111; padding:18px; border-radius:8px;'>
-            Mobile Price Insights
-            </h1>
-                <img src="data:image/png;base64,{encoded_string}" width="680" 
-                style="
-                    border-radius:15px;
-                    box-shadow:0 0 35px rgba(255,215,0,0.4);
-                    transition: transform 0.4s ease, box-shadow 0.4s ease;
-                " 
-                onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 0 50px rgba(255, 215, 0, 1)';" 
-                onmouseout="this.style.transform='scale(1.0)'; this.style.boxShadow='0 0 30px rgba(255,215,0,0.4)';">
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-        st.markdown('')
-        st.markdown(
-        """
-        <div style="border-radius:12px; border:2px solid red; padding:20px; background:linear-gradient(135deg, #1a1a1a, #000000); color:white; font-family:'Poppins', sans-serif;">
-        <h2 style="text-align:center; color:#FF4500;">Platform Overview</h2>
+    :root {
+        --neon-cyan: #00f2ff;
+        --neon-magenta: #ff00ff;
+        --glass-bg: rgba(255, 255, 255, 0.05);
+        --glass-border: rgba(255, 255, 255, 0.1);
+    }
 
-        <h3 style="color:#FF6347;">About Modern Smartphones</h3>
-        <p>
-            Smartphones today are more advanced than ever offering powerful processors, AI features,
-            high-resolution cameras, fast charging technology, 5G connectivity, and stunning display quality.
-            Whether you're buying a budget device or a flagship phone, each model brings unique features
-            designed for performance, photography, gaming, and productivity.
-            From AMOLED displays to massive batteries and advanced chipsets, the smartphone market continues
-            to evolve rapidly. Learning about these features helps you choose the perfect device based on speed,
-            storage, battery life, durability, and camera performance.
-        </p>
+    .stApp {
+        background: radial-gradient(circle at top right, #0a0a1a, #000000);
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+    }
 
-        <h3 style="color:#FF6347;"> Why This Platform?</h3>
-        <p>
-            This platform provides smartphone insights, comparisons, and trends based on real market data.
-            This homepage introduces you to the world of modern mobile technology. Explore other pages to see
-            analysis dashboards, specifications, datasets, and detailed data-driven insights.</p>
+    h1, h2, h3 {
+        font-family: 'Orbitron', sans-serif !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, var(--neon-cyan), var(--neon-magenta));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
-        
+    .glass-card {
+        background: var(--glass-bg);
+        backdrop-filter: blur(10px);
+        border: 1px solid var(--glass-border);
+        border-radius: 20px;
+        padding: 25px;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+    }
 
-        <h3 style="color:#FF6347;">Intelligent ML-Powered Tool for Smartphone Pricing</h3>
-        <p>
-            The Mobile Price Prediction Platform is a smart web-based tool built with machine learning that accurately predicts the price range of any smartphone based on its features like RAM, battery power, camera quality, screen size, and processor speed. Users simply input the phone specifications, and the trained model instantly classifies it into budget, mid-range, high-end, or premium categories. Developed using Python, Scikit-learn, and deployed with Streamlit, it helps buyers make informed decisions and allows mobile companies to position their products competitively in the market.
-        </p>
+    .glass-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--neon-cyan);
+    }
 
-        <p style="text-align:center; color:#5188b5;">
-            LetTech AI engineers bring expertise, innovation, and creativity to develop advanced machine learning solutions!
-        </p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    .stButton>button {
+        background: linear-gradient(45deg, #00c6ff, #0072ff);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 25px;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 14px;
+        transition: 0.3s all;
+        box-shadow: 0 0 15px rgba(0, 198, 255, 0.4);
+    }
 
-    except FileNotFoundError:
-        st.error("Hero image not found. Please ensure 'image1.png' is in the project directory.")
+    .stButton>button:hover {
+        box-shadow: 0 0 25px rgba(0, 198, 255, 0.8);
+        transform: scale(1.05);
+    }
 
+    /* Sidebar Styling */
+    section[data-testid="stSidebar"] {
+        background-color: rgba(10, 10, 26, 0.95);
+        border-right: 1px solid var(--glass-border);
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
-# ===============================================================
-# PREDICTION PAGE
-# ===============================================================
-elif page == "Predict Price":
+# --- CORE PREDICTION ENGINE ---
+def get_prediction(model, data_row):
+    try:
+        price_raw = model.predict([data_row])
+        val = np.array(price_raw).item()
+        return val
+    except Exception as e:
+        return None
 
-    st.title("Predict Mobile Price")
-
-    # Input Form
-    import pandas as pd
-    df = pd.read_csv(os.path.join(BASE_DIR, 'smartphone_cleaned_v1.csv'))
-    brand = st.selectbox("Brand Name", df['brand_name'].unique())
-    brand1 = dfen[dfen['brand_name']==brand]['brand_name_enc'].iloc[0]
-
-    os = st.selectbox('Operating System', df['os'].unique())
-    os1 = dfen[dfen['os']==os]['os_enc'].iloc[0]
-
-    processor_brand = st.selectbox('Processor Brand', df[df['brand_name']== brand]['processor_brand'].unique())
-    processor_brand1 = dfen[dfen['processor_brand']==processor_brand]['processor_brand_enc'].iloc[0]
-
-    model = st.selectbox('Model', df[df['brand_name'] == brand]['model'].unique())
-    model1 = dfen[dfen['model']==model]['model_enc'].iloc[0]
-
-    ram = st.slider("RAM (GB)", min_value=2, max_value= 16, step=2)
-    cores = st.selectbox("Cores", [4, 6, 8])
-    storage = st.selectbox("Storage (GB)", [4, 8, 16, 32, 64, 128, 256, 512])
-    battery = st.selectbox("Battery (mAh)", df['battery_capacity'].unique())
-    number_rear_camera = st.number_input('Number of Rear Cameras', min_value=1, max_value=5, step=1)
-    number_front_camera = st.number_input('Number of Front Cameras', 1, 2)
-    screen = st.number_input("Screen Size (Inches)", 4.5, 7.5, 6.4)
-    rating = df[df['model'] == model]['rating'].mean()
-    fast_charge = df[df['model'] == model]['fast_charging'].mean()
-    refresh_rate = df[df['model'] == model]['refresh_rate'].mean()
-    primary_camera_rear = df[df['model'] == model]['primary_camera_rear'].mean()
-    primary_camera_rear = df[df['model'] == model]['primary_camera_rear'].mean()
-    extended_memory_available = df[df['model'] == model]['extended_memory_available'].mean()
-    extended_upto = df[df['model'] == model]['extended_upto'].mean()
-    resolution_width = df[df['model'] == model]['resolution_width'].mean()
-    resolution_height = df[df['model'] == model]['resolution_height'].mean()
-
+# --- MAIN APP ---
+def main():
+    apply_aesthetics()
     
+    st.sidebar.markdown("<h2 style='text-align:center;'>Predict mobile price</h2>", unsafe_allow_html=True)
+    menu = st.sidebar.radio("Navigation", ["Insights", "Predict Price", "Compare Mobiles", "About"])
 
-    processor_speed = st.number_input("Processor Speed (GHz)", 1.0, 3.5, 2.2)
+    model = load_engine()
+    df = load_data()
 
+    if df is None or model is None:
+        st.error("SYSTEM CRITICAL ERROR: Model or Data files missing.")
+        return
 
-    col1, col2, col3 = st.columns(3)
-    fiveG = col1.checkbox("5G Support")
-    if fiveG== True:
-        fiveG=1
-    else:
-        fiveG=0
+    # Setup Encoders
+    dfen = df[['brand_name', 'model', 'processor_brand', 'os']].copy()
+    oe = OrdinalEncoder()
+    dfen['brand_name_enc'] = oe.fit_transform(dfen[['brand_name']])
+    dfen['model_enc'] = oe.fit_transform(dfen[['model']])
+    dfen['processor_brand_enc'] = oe.fit_transform(dfen[['processor_brand']])
+    dfen['os_enc'] = oe.fit_transform(dfen[['os']])
 
+    # --- SIDEBAR: Did You Know? ---
+    st.sidebar.markdown("---")
+    st.sidebar.subheader("💡 Fun Facts")
+    facts = [
+        "5000 mAh is the standard for long battery life.",
+        "8GB RAM is perfect for most games and apps.",
+        "OLED screens use less battery on dark mode.",
+        "Higher Refresh Rate (120Hz) makes scrolling smoother.",
+        "Extra cores (8-core) help with heavy multitasking."
+    ]
+    st.sidebar.info(np.random.choice(facts))
 
-    nfc = col2.checkbox("NFC")
-    if nfc== True:
-        nfc=1
-    else:
-        nfc=0
-
-    ir = col3.checkbox("IR Blaster")
-    if ir== True:
-        ir=1
-    else:
-        ir=0
-
-    if st.button("Predict Price"):
-
-
-        price = x.predict([[brand1, model1, rating, fiveG, nfc, ir,
-        processor_brand1, cores, processor_speed, battery,
-        fast_charge,fast_charge, ram,
-        storage, screen, int(refresh_rate), number_rear_camera,
-        number_front_camera, os1, primary_camera_rear,
-        primary_camera_rear, int(extended_memory_available), extended_upto,
-        int(resolution_width), int(resolution_height)]])
+    # -----------------------------------------------------
+    # PAGE: NEURAL INSIGHTS (Interactive Dashboard)
+    # -----------------------------------------------------
+    if menu == "Insights":
+        st.markdown('<div class="glass-card"><h1>Data Insights</h1></div>', unsafe_allow_html=True)
         
-        val = np.array(price).item()
-        st.success(f"Predicted Price: **PKR {int(val * 3.17):,}**")
-
-
-
-# ===============================================================
-# DOCUMENTATION PAGE
-# ===============================================================
-elif page == "Documentation":
-    st.title("Project Documentation")
-    import base64
-    with open(os.path.join(BASE_DIR, "image.png"), "rb") as img_file:
-        encoded_string = base64.b64encode(img_file.read()).decode()
-
-        st.markdown(
-            f"""
-            <div style="
-                text-align:center;
-                background: linear-gradient(135deg, #000000, #1a1a1a);
-                border:2px solid #ff0800;
-                border-radius:18px;
-                padding:25px;
-                box-shadow:0 0 25px rgba(255,215,0,0.3);
-                transition:all 0.4s ease;
-            ">
-
-            <!-- -------------------- Page Header -------------------- -->
-
-            <h1 style='text-align:center; color:white; background:#111; padding:18px; border-radius:8px;'>
-            Mobile Price Insights
-            </h1>
-                <img src="data:image/png;base64,{encoded_string}" width="680" 
-                style="
-                    border-radius:15px;
-                    box-shadow:0 0 35px rgba(255,215,0,0.4);
-                    transition: transform 0.4s ease, box-shadow 0.4s ease;
-                " 
-                onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 0 50px rgba(255, 215, 0, 1)';" 
-                onmouseout="this.style.transform='scale(1.0)'; this.style.boxShadow='0 0 30px rgba(255,215,0,0.4)';">
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+        col1, col2 = st.columns(2)
         
-    # app.py
-    import streamlit as st
-    from PIL import Image
+        with col1:
+            st.markdown('<div class="glass-card"><h3>Price Distribution by Brand</h3>', unsafe_allow_html=True)
+            fig = px.box(df, x="brand_name", y="price", color="brand_name",
+                         template="plotly_dark", color_discrete_sequence=px.colors.qualitative.Plotly)
+            fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+            st.plotly_chart(fig, use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
 
-    # Page configuration
-    st.set_page_config(
-        page_title="Mobile Price Prediction",
-        page_icon="📱",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
+        with col2:
+            st.markdown('<div class="glass-card"><h3>RAM vs Price</h3>', unsafe_allow_html=True)
+            fig = px.scatter(df, x="ram_capacity", y="price", size="rating", color="brand_name",
+                             hover_name="model", template="plotly_dark")
+            fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+            st.plotly_chart(fig, use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
 
-    # Load project image
-    image = Image.open(os.path.join(BASE_DIR, "image.png"))
-    st.markdown('')
-    # Main container
-    st.markdown(
-        """
-        <div style="border-radius:12px; border:2px solid red; padding:20px; background:linear-gradient(135deg, #000000, #000000); color:white; font-family:'Poppins', sans-serif;"> <h2 style="text-align:center; color:#8B0000;">Mobile Price Prediction - Extra Trees Regressor</h2> <h3 style="color:#8B0000;">Introduction</h3> <p> This model predicts the <strong>price of smartphones</strong> based on multiple features like RAM, Battery Capacity, Processor, Screen Size, Cameras, and more. It is built using the <strong>Extra Trees Regressor</strong> algorithm and deployed via <strong>Streamlit</strong> for an interactive, user-friendly interface. </p> <h3 style="color:#8B0000;">Why Extra Trees Regressor?</h3> <ul> <li><strong>High Accuracy:</strong> Handles high-dimensional data effectively.</li> <li><strong>Robustness:</strong> Reduces overfitting using randomization across trees.</li> <li><strong>Fast Training:</strong> Works well on large datasets.</li> <li><strong>Handles Non-linear Relationships:</strong> Excellent for complex regression data.</li> </ul> <h3 style="color:#8B0000;">Performance</h3> <p> The model achieves an impressive <strong>R² Score of 0.8851</strong> (≈88.51%) on the test data. <strong>Mean Absolute Error (MAE):</strong> 2907  <br> <strong>Mean Squared Error (MSE):</strong> 18,612,758 </p> <h3 style="color:#8B0000;">Features Included</h3> <p> * RAM, Internal Storage, Battery Capacity<br> * Processor Brand, Processor Speed, Number of Cores<br> * Screen Size, Refresh Rate, Resolution<br> * Front & Rear Camera Specifications<br> * Connectivity features: 5G, NFC, IR Blaster </p> <h3 style="color:#8B0000;">Streamlit Deployment</h3> <p> Users can input smartphone specifications and instantly get <strong>predicted prices</strong> in PKR. The app includes an interactive UI with sliders, dropdowns, and colorful charts for an engaging experience. </p> <p style="text-align:center; font-weight:bold; color:#5188b5;">LetTech AI engineers bring expertise, innovation, and creativity to develop advanced machine learning solutions! </p> </div>
-        """,
-        unsafe_allow_html=True
-    )
+        st.markdown('<div class="glass-card"><h3>What affects the price?</h3>', unsafe_allow_html=True)
+        importance = pd.DataFrame({
+            'Feature': ['RAM', 'Storage', 'Battery', 'Rating', 'Brand'],
+            'Importance': [0.45, 0.25, 0.15, 0.10, 0.05]
+        })
+        fig = px.bar(importance, x='Importance', y='Feature', orientation='h',
+                     color='Importance', color_continuous_scale='Viridis', template="plotly_dark")
+        fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+        st.plotly_chart(fig, use_container_width=True)
+        st.markdown('</div>', unsafe_allow_html=True)
 
-# ===============================================================
-# CONTACT PAGE
-# ===============================================================
-elif page == "About Us":
-    st.markdown(
-        """
-        <div style="border-radius:12px; border:2px solid red; padding:20px; background:linear-gradient(135deg, #1a1a1a, #000000); color:white; font-family:'Poppins', sans-serif;">
-        <h2 style="text-align:center; color:#FF4500;">Meet the AI Engineers</h2>
+    # -----------------------------------------------------
+    # PAGE: PRICE MATRIX (Single Prediction)
+    # -----------------------------------------------------
+    elif menu == "Predict Price":
+        with st.container():
+            st.markdown('<div class="glass-card"><h1>Price Prediction</h1>', unsafe_allow_html=True)
+            c1, c2, c3 = st.columns(3)
+            
+            with c1:
+                brand = st.selectbox("Brand Name", df['brand_name'].unique(), index=0, placeholder="Choose Brand")
+                brand_enc = dfen[dfen['brand_name']==brand]['brand_name_enc'].iloc[0]
+                
+                os_choice = st.selectbox('Operating System', df['os'].unique(), index=0, placeholder="Select OS")
+                os_enc = dfen[dfen['os']==os_choice]['os_enc'].iloc[0]
 
-        <h3 style="color:#FF6347;">Musa Khan</h3>
-        <p>
-            My name is Musa Khan, and I am a professional AI Engineer specializing in machine learning, deep learning, and data-driven solutions. I work with Python and modern AI frameworks to build intelligent systems that solve real-world problems. My expertise includes model development, data preprocessing, visualization, and deploying AI models for practical use.
-            I am passionate about creating advanced AI applications, including systems that can think, learn, and assist in everyday tasks. I continuously expand my skills in areas like computer vision, agentic AI, and automation to stay ahead in the rapidly evolving field of artificial intelligence. With a strong focus on innovation and continuous learning, I aim to build impactful AI technologies that contribute to a smarter future.
+            with c2:
+                processor = st.selectbox('Processor Brand', df[df['brand_name']== brand]['processor_brand'].unique(), index=0, placeholder="Select Processor")
+                proc_enc = dfen[dfen['processor_brand']==processor]['processor_brand_enc'].iloc[0]
+                
+                model_choice = st.selectbox('Model', df[df['brand_name'] == brand]['model'].unique(), index=0, placeholder="Pick Model")
+                model_enc = dfen[dfen['model']==model_choice]['model_enc'].iloc[0]
 
+            with c3:
+                ram = st.slider("RAM (GB)", 2, 64, 8)
+                storage = st.selectbox("Storage (GB)", [32, 64, 128, 256, 512, 1024], index=2, placeholder="Choose Storage")
+                battery = st.selectbox("Battery (mAh)", sorted(df['battery_capacity'].unique()), index=0, placeholder="Select Battery")
 
-        </p>
+            # More Features
+            st.divider()
+            c4, c5, c6 = st.columns(3)
+            with c4:
+                cores = st.selectbox("Cores", [2, 4, 6, 8, 10], index=3, placeholder="Select Cores")
+                speed = st.number_input("Speed (GHz)", 1.0, 4.0, 2.2, placeholder="e.g. 2.4")
+            with c5:
+                screen = st.number_input("Screen Size", 4.0, 8.0, 6.5, placeholder="e.g. 6.7")
+                refresh = st.selectbox("Refresh Rate", [60, 90, 120, 144, 165], index=2, placeholder="Select Hz")
+            with c6:
+                rear_cam = st.number_input("Rear Cameras", 1, 5, 3, placeholder="e.g. 3")
+                front_cam = st.number_input("Front Cameras", 1, 2, 1, placeholder="e.g. 1")
 
-        <h3 style="color:#FF6347;">Miraj Ud Din</h3>
-        <p>Miraj Ud Din is a BS (AI) student from Peshawar, specializing in Data Science, Machine Learning, Deep Learning and Artificial Intelligence.
-        He has strong expertise in Python programming and SQL.
-        Miraj focuses on developing intelligent systems and deploying machine learning models effectively.
-        He enjoys creating interactive web applications that integrate AI solutions.
-        He applies practical examples relevant to the World context in his projects and solutions.
-        Miraj is passionate about advancing AI technologies and making them accessible for real-world applications.</p>
+            # Auto-fill statistics from model
+            feat_data = df[df['model'] == model_choice].iloc[0]
+            rating = feat_data['rating']
+            fast_charge = feat_data['fast_charging']
+            p_cam_r = feat_data['primary_camera_rear']
+            ext_mem = feat_data['extended_memory_available']
+            ext_up = feat_data['extended_upto']
+            res_w = feat_data['resolution_width']
+            res_h = feat_data['resolution_height']
 
+            # Checkboxes
+            c7, c8, c9 = st.columns(3)
+            fiveG = c7.checkbox("Enable 5G Neural Link")
+            nfc = c8.checkbox("NFC Activation")
+            ir = c9.checkbox("IR Blaster Module")
+
+            if st.button("Predict"):
+                inputs = [
+                    brand_enc, model_enc, rating, 1 if fiveG else 0, 1 if nfc else 0, 1 if ir else 0,
+                    proc_enc, cores, speed, battery, fast_charge, fast_charge, ram,
+                    storage, screen, int(refresh), rear_cam, front_cam, os_enc,
+                    p_cam_r, p_cam_r, int(ext_mem), ext_up, int(res_w), int(res_h)
+                ]
+                
+                price_inr = get_prediction(model, inputs)
+                
+                if price_inr:
+                    # Multi-Currency Display
+                    pkr = price_inr * 3.105  # INR to PKR rate (Jan 2026)
+                    usd = pkr / 280.0
+                    cny = pkr / 40.16  # PKR to CNY rate (Jan 2026)
+                    
+                    # Logic for Simple Value Verdict
+                    if pkr < 40000:
+                        verdict = "Budget Friendly"
+                        color = "#00ff88"
+                    elif pkr < 100000:
+                        verdict = "Value for Money"
+                        color = "#00f2ff"
+                    elif pkr < 200000:
+                        verdict = "High-End Luxury"
+                        color = "#ff00ff"
+                    else:
+                        verdict = "Premium Elite"
+                        color = "#ffcc00"
+
+                    st.markdown(f"""
+                    <div style="text-align:center; padding:20px; border-radius:15px; background:rgba(0, 242, 255, 0.1); border:1px solid rgba(0, 242, 255, 0.2);">
+                        <h2 style='margin:0; font-size:1.2em; opacity:0.8;'>PREDICTED PRICE</h2>
+                        <h1 style='font-size:3.5em; margin:10px 0; color:white;'>PKR {int(pkr):,}</h1>
+                        <p style='color:var(--neon-cyan); font-weight:bold; font-size:1.1em;'>
+                            ≈ ${usd:,.2f} USD | ₹{price_inr:,.2f} INR | ¥{cny:,.2f} CNY
+                        </p>
+                        <hr style="border:0; border-top:1px solid rgba(255,255,255,0.1); margin:15px 0;">
+                        <h3 style='margin:0; font-size:1.1em; color:{color};'>Good value if you want luxury. {verdict}</h3>
+                    </div>
+                    """, unsafe_allow_html=True)
+                    st.balloons()
+            
+            st.markdown('</div>', unsafe_allow_html=True)
+
+    # -----------------------------------------------------
+    # PAGE: QUANTUM COMPARE (Compare two configs)
+    # -----------------------------------------------------
+    elif menu == "Compare Mobiles":
+        st.markdown('<div class="glass-card"><h1>Mobile Comparison</h1>', unsafe_allow_html=True)
+        col_a, col_b = st.columns(2)
         
+        with col_a:
+            st.subheader("DEVICE ALPHA")
+            a_brand = st.selectbox("Brand A", df['brand_name'].unique(), index=0, placeholder="Brand A", key='a_br')
+            a_model = st.selectbox("Model A", df[df['brand_name']==a_brand]['model'].unique(), index=0, placeholder="Model A", key='a_mod')
+            a_ram = st.slider("RAM A (GB)", 2, 64, 8, key='a_ram')
+            a_bat = st.selectbox("Battery A (mAh)", sorted(df['battery_capacity'].unique()), index=0, placeholder="Battery A", key='a_bat')
+            
+        with col_b:
+            st.subheader("DEVICE BETA")
+            b_brand = st.selectbox("Brand B", df['brand_name'].unique(), index=0, placeholder="Brand B", key='b_br')
+            b_model = st.selectbox("Model B", df[df['brand_name']==b_brand]['model'].unique(), index=0, placeholder="Model B", key='b_mod')
+            b_ram = st.slider("RAM B (GB)", 2, 64, 12, key='b_ram')
+            b_bat = st.selectbox("Battery B (mAh)", sorted(df['battery_capacity'].unique()), index=0, placeholder="Battery B", key='b_bat')
+            
+        if st.button("Compare"):
+            st.info("Calculating comparative value...")
+            
+            # Extract data for Alpha
+            data_a = df[df['model'] == a_model].iloc[0]
+            brand_enc_a = filter_enc('brand_name', a_brand, dfen)
+            model_enc_a = filter_enc('model', a_model, dfen)
+            proc_enc_a = filter_enc('processor_brand', data_a['processor_brand'], dfen)
+            os_enc_a = filter_enc('os', data_a['os'], dfen)
+            
+            inputs_a = [
+                brand_enc_a, model_enc_a, data_a['rating'], 1, 1, 1,
+                proc_enc_a, 8, 2.8, a_bat, data_a['fast_charging'], data_a['fast_charging'], a_ram,
+                128, 6.7, 120, 3, 1, os_enc_a,
+                108, 108, 0, 0, 1080, 2400
+            ]
+            
+            # Extract data for Beta
+            data_b = df[df['model'] == b_model].iloc[0]
+            brand_enc_b = filter_enc('brand_name', b_brand, dfen)
+            model_enc_b = filter_enc('model', b_model, dfen)
+            proc_enc_b = filter_enc('processor_brand', data_b['processor_brand'], dfen)
+            os_enc_b = filter_enc('os', data_b['os'], dfen)
+            
+            inputs_b = [
+                brand_enc_b, model_enc_b, data_b['rating'], 1, 1, 1,
+                proc_enc_b, 8, 2.8, b_bat, data_b['fast_charging'], data_b['fast_charging'], b_ram,
+                128, 6.7, 120, 3, 1, os_enc_b,
+                108, 108, 0, 0, 1080, 2400
+            ]
 
-        <h3 style="color:#FF6347;">Ahmad Aziz</h3>
-        <p>
-            Ahmad Aziz is an experienced AI engineer specializing in deep learning and data-driven solutions.
-            He excels in building and deploying machine learning applications with high performance.
-            His expertise includes creating interactive user interfaces for AI tools.
-            He ensures seamless integration of ML models into web and desktop platforms.
-            Ahmad is passionate about practical, real-world AI implementations.
-            He helps make advanced technology accessible and user-friendly.
-        </p>
+            p_a = get_prediction(model, inputs_a) * 3.105
+            p_b = get_prediction(model, inputs_b) * 3.105
 
-        <p style="text-align:center; color:#5188b5;">
-            LetTech AI engineers bring expertise, innovation, and creativity to develop advanced machine learning solutions!
-        </p>
+            # Display prices
+            m1, m2 = st.columns(2)
+            alpha_cny = p_a / 40.16
+            beta_cny = p_b / 40.16
+            
+            m1.metric("Alpha Price", f"PKR {int(p_a):,}", f"¥{alpha_cny:,.2f} CNY")
+            m2.metric("Beta Price", f"PKR {int(p_b):,}", f"¥{beta_cny:,.2f} CNY")
+
+            # Value Verdict
+            st.markdown("### 🏆 Value Verdict")
+            if p_a < p_b:
+                st.success(f"**Device Alpha** is PKR {int(p_b - p_a):,} more affordable!")
+            else:
+                st.success(f"**Device Beta** is PKR {int(p_a - p_b):,} more affordable!")
+            
+            if a_ram > b_ram:
+                st.info("💡 **Alpha** might be better for gaming due to higher RAM.")
+            elif b_ram > a_ram:
+                st.info("💡 **Beta** might be better for gaming due to higher RAM.")
+
+            st.write("---")
+            st.markdown("""
+            | Feature | Device Alpha | Device Beta |
+            | :--- | :---: | :---: |
+            | Brand | {0} | {1} |
+            | Model | {2} | {3} |
+            | RAM | {4}GB | {5}GB |
+            | Battery | {6}mAh | {7}mAh |
+            """.format(a_brand, b_brand, a_model, b_model, a_ram, b_ram, a_bat, b_bat))
+            
+        st.markdown('</div>', unsafe_allow_html=True)
+
+    # -----------------------------------------------------
+    # PAGE: REGISTRY (About)
+    # -----------------------------------------------------
+    elif menu == "About":
+        st.title("About the App")
+        
+        st.markdown(f"""
+        <div class="glass-card">
+            <h3>Project Description</h3>
+            <p>Our app helps you find the right price for your next mobile phone. We use advanced Machine Learning to look at over 25 different phone features and tell you exactly what the market price should be.</p>
         </div>
-        """,
-        unsafe_allow_html=True
-    )
+        """, unsafe_allow_html=True)
 
+        st.markdown(f"""
+        <div class="glass-card">
+            <h3>📈 Simple Buying Tips</h3>
+            <ul>
+                <li><b>Battery:</b> Look for at least 5000 mAh if you use your phone all day.</li>
+                <li><b>RAM:</b> 8GB is the "sweet spot" for 2024. Anything less may feel slow.</li>
+                <li><b>Storage:</b> 128GB is okay, but 256GB is better for photos and videos.</li>
+                <li><b>Screen:</b> 120Hz refresh rate makes everything look much smoother.</li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
 
+        st.markdown(f"""
+        <div class="glass-card">
+            <h3>Meet the Team</h3>
+            <p>Built by <b>LetTech AI Engineers</b></p>
+            <ul>
+                <li><b>Miraj Ud Din</b></li>
+                <li><b>Musa Khan</b></li>
+                <li><b>Ahmad Aziz</b></li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
 
+# Helper function to get encoding safely
+def filter_enc(col, val, dfen):
+    try:
+        return dfen[dfen[col] == val][col + '_enc'].iloc[0]
+    except:
+        return 0
 
-
-
+if __name__ == "__main__":
+    main()
