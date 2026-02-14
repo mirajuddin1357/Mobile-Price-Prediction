@@ -1,0 +1,676 @@
+brand_name,model,rating,has_5g,has_nfc,has_ir_blaster,processor_brand,num_cores,processor_speed,battery_capacity,fast_charging,ram_capacity,internal_memory,screen_size,refresh_rate,num_rear_cameras,num_front_cameras,os,primary_camera_rear,primary_camera_front,extended_memory_available,extended_upto,resolution_width,resolution_height,price
+oneplus,11,89,True,True,False,snapdragon,8,3.2,5000,100.0,12,256,6.7,120.0,3,1,android,50,16,0,736,1.44e+03,3.216e+03,54999.0
+oneplus,Nord CE 2 Lite,81,True,False,False,snapdragon,8,2.2,5000,33.0,6,128,6.59,120.0,3,1,android,64,16,1,1024,1.08e+03,2.412e+03,19989.0
+samsung,Galaxy A14,75,True,False,False,exynos,8,2.4,5000,15.0,4,64,6.6,90.0,3,1,android,50,13,1,1024,1.08e+03,2.408e+03,16499.0
+realme,10 Pro Plus,82,True,False,False,dimensity,8,2.6,5000,67.0,6,128,6.7,120.0,3,1,android,108,16,0,736,1.08e+03,2.412e+03,24999.0
+samsung,Galaxy F23,80,True,True,False,snapdragon,8,2.2,5000,25.0,6,128,6.6,120.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,16999.0
+xiaomi,Redmi Note 12 Pro Plus,86,True,False,True,dimensity,8,2.6,4980,120.0,8,256,6.67,120.0,3,1,android,200,16,0,736,1.08e+03,2.4e+03,29999.0
+nothing,Phone 1,85,True,True,False,snapdragon,8,2.5,4500,33.0,8,128,6.55,120.0,2,1,android,50,16,0,736,1.08e+03,2.4e+03,26749.0
+oneplus,Nord 2T,84,True,True,False,dimensity,8,3.0,4500,80.0,8,128,6.43,90.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,28999.0
+realme,10 Pro,82,True,False,False,snapdragon,8,2.2,5000,33.0,6,128,6.72,120.0,2,1,android,108,16,1,1024,1.08e+03,2.4e+03,18999.0
+oppo,A78,79,True,True,False,dimensity,8,2.2,5000,33.0,8,128,6.56,90.0,2,1,android,50,8,1,736,720.0,1.612e+03,18999.0
+xiaomi,Redmi Note 12 Pro,79,True,False,True,dimensity,8,2.6,5000,67.0,6,128,6.67,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,24762.0
+vivo,T1,80,True,False,False,snapdragon,8,2.2,5000,18.0,6,128,6.58,120.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,16990.0
+vivo,Y16,67,False,False,False,helio,8,2.3,5000,10.0,3,32,6.51,60.0,2,1,android,13,5,1,736,720.0,1.6e+03,9999.0
+oppo,Reno 9 Pro Plus,86,True,True,False,snapdragon,8,3.2,4700,80.0,16,256,6.7,120.0,3,1,android,50,32,0,736,1.08e+03,2.412e+03,45999.0
+oneplus,10R,86,True,True,False,dimensity,8,2.85,5000,80.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,32999.0
+vivo,Y22,72,False,False,False,helio,8,2.0,5000,18.0,4,64,6.55,60.0,2,1,android,50,8,1,1024,720.0,1.612e+03,14499.0
+oneplus,11R,85,True,True,False,snapdragon,8,3.2,5000,100.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,39999.0
+vivo,V25 Pro,85,True,False,False,dimensity,8,3.0,4830,66.0,8,128,6.56,120.0,3,1,android,64,32,0,736,1.08e+03,2.376e+03,35999.0
+poco,X4 Pro,80,True,False,True,snapdragon,8,2.2,5000,67.0,6,64,6.67,120.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,14999.0
+xiaomi,Redmi Note 12,76,True,False,True,snapdragon,8,2.0,5000,33.0,4,128,6.67,120.0,3,1,android,48,13,1,1024,1.08e+03,2.4e+03,17859.0
+vivo,V26 Pro,87,True,True,False,dimensity,8,3.2,4800,100.0,12,256,6.7,120.0,3,1,android,64,32,0,736,1.08e+03,2.4e+03,42990.0
+oneplus,Nord CE 2 Lite,84,True,False,False,snapdragon,8,2.2,5000,33.0,8,128,6.59,120.0,3,1,android,64,16,1,1024,1.08e+03,2.412e+03,21995.0
+vivo,V25,83,True,False,False,dimensity,8,2.0,4500,44.0,8,128,6.44,90.0,3,1,android,64,50,1,1024,1.08e+03,2.408e+03,27999.0
+realme,10 Pro,84,True,False,False,snapdragon,8,2.2,5000,33.0,8,128,6.72,120.0,2,1,android,108,16,1,1024,1.08e+03,2.4e+03,19999.0
+poco,X5 Pro,81,True,True,True,snapdragon,8,2.4,5000,67.0,6,128,6.67,120.0,3,1,android,108,16,0,736,1.08e+03,2.4e+03,20999.0
+vivo,V27,83,True,False,False,dimensity,8,2.2,4700,67.0,8,256,6.56,120.0,3,1,android,64,50,1,736,1.08e+03,2.4e+03,27990.0
+samsung,Galaxy M53,85,True,False,False,dimensity,8,2.4,5000,25.0,6,128,6.7,120.0,4,1,android,108,32,1,1024,1.08e+03,2.4e+03,23790.0
+samsung,Galaxy S21 FE,87,True,True,False,exynos,8,2.9,4500,25.0,8,128,6.4,120.0,3,1,android,12,32,0,736,1.08e+03,2.34e+03,39999.0
+oppo,Reno 8T,87,True,True,False,snapdragon,8,2.2,5000,66.0,8,256,6.67,120.0,3,1,android,108,16,1,1024,1.08e+03,2.4e+03,29990.0
+xiaomi,Redmi Note 12 Pro Max,83,True,False,True,snapdragon,8,2.36,5200,210.0,6,128,6.67,120.0,4,1,android,108,32,1,512,1.08e+03,2.46e+03,32999.0
+oppo,Reno 9,83,True,True,False,snapdragon,8,2.4,4500,67.0,8,256,6.7,120.0,2,1,android,64,32,0,736,1.08e+03,2.412e+03,28499.0
+oneplus,Nord CE 3,83,True,True,False,snapdragon,8,2.2,5000,67.0,6,128,6.7,120.0,3,1,android,108,16,1,1024,1.08e+03,2.412e+03,21999.0
+xiaomi,Redmi Note 11 Pro Plus,83,True,False,True,snapdragon,8,2.2,5000,67.0,6,128,6.67,120.0,3,1,android,108,16,1,1024,1.08e+03,2.4e+03,19999.0
+motorola,Edge 20 Fusion,87,True,True,False,dimensity,8,2.4,5000,30.0,6,128,6.67,90.0,3,1,android,108,32,1,1024,1.08e+03,2.4e+03,18999.0
+realme,10 Pro Plus,85,True,False,False,dimensity,8,2.6,5000,67.0,8,256,6.7,120.0,3,1,android,108,16,0,736,1.08e+03,2.412e+03,27999.0
+vivo,Y35,80,False,False,False,snapdragon,8,2.4,5000,44.0,8,128,6.58,90.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,18499.0
+samsung,Galaxy M33,81,True,True,False,exynos,8,2.4,6000,25.0,6,128,6.6,120.0,4,1,android,50,8,1,1024,1.08e+03,2.4e+03,17478.0
+xiaomi,Redmi Note 11,76,False,False,True,snapdragon,8,2.4,5000,33.0,4,64,6.43,90.0,4,1,android,50,13,1,512,1.08e+03,2.4e+03,11936.0
+vivo,Y16,68,False,False,False,helio,8,2.3,5000,10.0,4,64,6.51,60.0,2,1,android,13,5,1,736,720.0,1.6e+03,12489.0
+samsung,Galaxy A74,78,True,True,False,snapdragon,8,2.36,5000,33.0,8,128,6.7,120.0,4,1,android,108,32,1,1024,1.08e+03,2.412e+03,42999.0
+samsung,Galaxy A14,79,True,False,False,exynos,8,2.4,5000,15.0,6,128,6.6,90.0,3,1,android,50,13,1,1024,1.08e+03,2.408e+03,18999.0
+iqoo,Neo 7,82,True,True,True,dimensity,8,3.1,5000,120.0,8,128,6.78,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,29999.0
+jio,JioPhone,67,True,False,False,snapdragon,8,2.2,5000,18.0,4,32,6.5,90.0,1,1,android,13,8,1,512,720.0,1.6e+03,11990.0
+motorola,Moto G82,83,True,True,False,snapdragon,8,2.2,5000,30.0,6,128,6.6,120.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,18999.0
+realme,10,74,False,False,False,helio,8,2.2,5000,33.0,4,64,6.4,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,13999.0
+realme,9i,75,True,False,False,dimensity,8,2.4,5000,18.0,4,64,6.6,90.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,14965.0
+xiaomi,Redmi Note 10S,78,False,False,True,helio,8,2.05,5000,33.0,6,64,6.43,60.0,4,1,android,64,13,1,512,1.08e+03,2.4e+03,10999.0
+motorola,Moto G32,75,False,False,False,snapdragon,8,2.4,5000,33.0,4,64,6.55,90.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,10499.0
+xiaomi,Redmi Note 13 Pro,78,True,True,True,dimensity,8,2.0,5000,67.0,6,128,6.67,120.0,3,1,android,108,16,0,736,1.08e+03,2.46e+03,17990.0
+vivo,S16,85,True,True,False,snapdragon,8,3.2,4600,66.0,8,128,6.78,120.0,3,1,android,64,50,0,736,1.08e+03,2.4e+03,29990.0
+samsung,Galaxy A23,79,False,False,False,snapdragon,8,2.4,5000,25.0,6,128,6.6,60.0,4,1,android,50,8,1,1024,1.08e+03,2.408e+03,18499.0
+vivo,Y22,75,False,False,False,helio,8,2.0,5000,18.0,6,128,6.55,60.0,2,1,android,50,8,1,1024,720.0,1.612e+03,16499.0
+poco,M4 Pro,81,True,False,True,dimensity,8,2.4,5000,33.0,6,128,6.6,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,14999.0
+vivo,S16 Pro,86,True,True,False,dimensity,8,3.1,4600,66.0,8,256,6.78,120.0,3,1,android,50,50,0,736,1.08e+03,2.4e+03,35499.0
+oneplus,10 Pro,89,True,True,False,snapdragon,8,3.0,5000,80.0,8,128,6.7,120.0,3,1,android,50,32,0,736,1.44e+03,3.216e+03,60999.0
+xiaomi,Redmi Note 12 Pro Plus,87,True,False,True,dimensity,8,2.6,4980,120.0,12,256,6.67,120.0,3,1,android,200,16,0,736,1.08e+03,2.4e+03,32999.0
+samsung,Galaxy F23,78,True,True,False,snapdragon,8,2.2,5000,25.0,4,128,6.6,120.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,15999.0
+vivo,V23,86,True,False,False,dimensity,8,2.5,4200,44.0,12,256,6.44,90.0,3,2,android,64,50,1,736,1.08e+03,2.4e+03,27994.0
+iqoo,Z6 Lite,75,True,False,False,snapdragon,8,2.0,5000,18.0,4,64,6.58,120.0,2,1,android,50,8,1,1024,1.08e+03,2.408e+03,13989.0
+oneplus,10T,85,True,True,False,snapdragon,8,3.2,4800,150.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,44999.0
+xiaomi,Redmi Note 10T,79,True,False,True,dimensity,8,2.2,5000,18.0,6,128,6.5,90.0,3,1,android,48,8,1,1024,1.08e+03,2.4e+03,13999.0
+oppo,F22 Pro,83,True,False,False,snapdragon,8,2.2,4800,67.0,8,128,6.58,120.0,3,1,android,64,32,1,1024,1.08e+03,2.4e+03,27660.0
+motorola,Moto G72 4G,83,False,True,False,helio,8,2.2,5000,33.0,6,128,6.55,120.0,3,1,android,108,16,1,736,1.08e+03,2.4e+03,15999.0
+samsung,Galaxy A14,82,True,False,False,exynos,8,2.4,5000,15.0,8,128,6.6,90.0,3,1,android,50,13,1,1024,1.08e+03,2.408e+03,20999.0
+realme,9,75,True,False,False,dimensity,8,2.4,5000,18.0,4,64,6.5,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,13999.0
+vivo,T1,83,True,False,False,snapdragon,8,2.2,5000,18.0,8,128,6.58,120.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,19990.0
+samsung,Galaxy M13,75,True,False,False,dimensity,8,2.2,5000,15.0,6,128,6.5,90.0,2,1,android,50,5,1,1024,720.0,1.6e+03,13999.0
+motorola,Edge 30,83,True,True,False,snapdragon,8,2.5,4020,33.0,6,128,6.5,144.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,22999.0
+samsung,Galaxy A23,79,True,False,False,snapdragon,8,2.2,5000,25.0,6,128,6.6,120.0,4,1,android,50,8,1,1024,1.08e+03,2.408e+03,22999.0
+oppo,K10,79,True,False,False,dimensity,8,2.4,5000,33.0,8,128,6.56,90.0,2,1,android,48,8,1,1024,720.0,1.612e+03,16999.0
+xiaomi,Redmi Note 11,80,False,False,True,snapdragon,8,2.4,5000,33.0,6,128,6.43,90.0,4,1,android,50,13,1,512,1.08e+03,2.4e+03,14290.0
+samsung,Galaxy A73,78,True,True,False,snapdragon,8,2.4,5000,25.0,8,128,6.7,120.0,4,1,android,108,32,1,1024,1.08e+03,2.4e+03,41999.0
+vivo,Y21 2021,69,False,False,False,helio,8,2.3,5000,18.0,4,64,6.51,60.0,2,1,android,13,8,1,1024,720.0,1.6e+03,13489.0
+realme,9i,75,False,False,False,snapdragon,8,2.4,5000,33.0,4,64,6.6,90.0,3,1,android,50,16,1,1024,1.08e+03,2.412e+03,12499.0
+iqoo,11,88,True,True,False,snapdragon,8,3.2,5000,120.0,8,256,6.78,144.0,3,1,android,50,16,0,736,1.44e+03,3.2e+03,59999.0
+vivo,T1,78,True,False,False,snapdragon,8,2.2,5000,18.0,4,128,6.58,120.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,15990.0
+xiaomi,Redmi Note 11 Pro Max,83,True,False,True,snapdragon,8,2.4,5200,33.0,6,128,6.67,120.0,4,1,android,108,32,1,512,1.08e+03,2.4e+03,19999.0
+motorola,Moto S30 Pro,83,True,False,False,snapdragon,8,2.9,4400,68.0,8,128,6.55,144.0,3,1,android,50,32,0,736,1.08e+03,2.46e+03,23990.0
+realme,10s,80,True,False,False,dimensity,8,2.4,5000,33.0,8,128,6.6,90.0,2,1,android,50,8,1,1024,1.08e+03,2.408e+03,12999.0
+oppo,F19 Pro Plus,82,True,False,False,dimensity,8,2.4,4310,50.0,8,128,6.43,60.0,4,1,android,48,16,1,256,1.08e+03,2.4e+03,19990.0
+xiaomi,13 Pro,78,True,True,True,snapdragon,8,3.2,4820,120.0,8,128,6.73,120.0,3,1,android,50,32,0,736,1.44e+03,3.2e+03,58990.0
+vivo,V27 Pro,87,True,False,False,dimensity,8,3.2,5000,120.0,12,256,6.73,144.0,3,1,android,108,32,0,736,1.08e+03,2.4e+03,43999.0
+samsung,Galaxy S22,86,True,True,False,snapdragon,8,3.0,3700,25.0,8,128,6.1,120.0,3,1,android,50,10,0,736,1.08e+03,2.34e+03,49999.0
+vivo,T1 44W,79,False,False,False,snapdragon,8,2.4,5000,44.0,6,128,6.44,60.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,15999.0
+oneplus,10R,87,True,True,False,dimensity,8,2.85,5000,80.0,12,256,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,36999.0
+tecno,Phantom X2,85,True,True,False,dimensity,8,3.05,5160,45.0,8,256,6.8,120.0,3,1,android,64,32,0,736,1.08e+03,2.4e+03,39999.0
+xiaomi,Redmi K50i,82,True,False,True,dimensity,8,2.85,5080,67.0,6,128,6.6,144.0,3,1,android,64,16,0,736,1.08e+03,2.46e+03,22999.0
+samsung,Galaxy A53,87,True,True,False,exynos,8,2.4,5000,25.0,6,128,6.5,120.0,4,1,android,64,32,1,1024,1.08e+03,2.4e+03,31999.0
+xiaomi,Redmi A1,78,False,False,False,helio,4,2.0,5000,10.0,2,32,6.52,60.0,2,1,android,8,5,1,512,720.0,1.6e+03,6171.0
+oppo,Reno8,83,True,True,False,dimensity,8,3.0,4500,80.0,8,128,6.43,90.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,29340.0
+samsung,Galaxy M53,87,True,False,False,dimensity,8,2.4,5000,25.0,8,128,6.7,120.0,4,1,android,108,32,1,1024,1.08e+03,2.4e+03,25289.0
+iqoo,Z6 Pro,78,True,False,False,snapdragon,8,2.4,4700,66.0,6,128,6.44,90.0,3,1,android,64,16,0,736,1.08e+03,2.404e+03,21788.0
+motorola,Edge 30 Pro,89,True,True,False,snapdragon,8,3.0,4800,68.0,8,128,6.7,144.0,3,1,android,50,60,0,736,1.08e+03,2.4e+03,34999.0
+oneplus,Nord 2T,85,True,True,False,dimensity,8,3.0,4500,80.0,12,256,6.43,90.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,33900.0
+infinix,Note 12 Pro,84,True,False,False,dimensity,8,2.4,5000,33.0,8,128,6.7,60.0,3,1,android,108,16,1,2048,1.08e+03,2.4e+03,18999.0
+samsung,Galaxy M33,84,True,True,False,exynos,8,2.4,6000,25.0,8,128,6.6,120.0,4,1,android,50,8,1,1024,1.08e+03,2.4e+03,19499.0
+vivo,V23,83,True,False,False,dimensity,8,2.5,4200,44.0,8,128,6.44,90.0,3,2,android,64,50,0,736,1.08e+03,2.4e+03,24994.0
+motorola,Moto G42,78,False,True,False,snapdragon,8,2.4,5000,20.0,4,64,6.47,60.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,10999.0
+oneplus,Nord CE 2 Lite,85,True,False,False,snapdragon,8,2.2,5000,33.0,8,256,6.59,120.0,3,1,android,64,16,1,1024,1.08e+03,2.412e+03,24999.0
+samsung,Galaxy A33,82,True,True,False,exynos,8,2.4,5000,25.0,6,128,6.4,90.0,4,1,android,48,13,1,1024,1.08e+03,2.4e+03,25999.0
+xiaomi,Redmi 11 Prime,74,True,False,True,dimensity,8,2.2,5000,18.0,4,64,6.58,90.0,2,1,android,50,5,1,512,1.08e+03,2.408e+03,13466.0
+xiaomi,Redmi Note 10 Lite,76,False,False,True,snapdragon,8,2.3,5020,18.0,4,64,6.67,60.0,4,1,android,48,16,1,512,1.08e+03,2.4e+03,9999.0
+nothing,Phone 1,86,True,True,False,snapdragon,8,2.5,4500,33.0,8,256,6.55,120.0,2,1,android,50,16,0,736,1.08e+03,2.4e+03,28249.0
+poco,X4 Pro,82,True,False,True,snapdragon,8,2.2,5000,67.0,6,128,6.67,120.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,16499.0
+xiaomi,Redmi Note 11 Pro Plus,87,True,False,True,snapdragon,8,2.2,5000,67.0,8,256,6.67,120.0,3,1,android,108,16,1,1024,1.08e+03,2.4e+03,22999.0
+realme,C35,74,False,False,False,tiger,8,1.8,5000,18.0,6,128,6.6,90.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,13999.0
+oppo,K10,78,False,False,False,snapdragon,8,2.4,5000,33.0,6,128,6.59,90.0,3,1,android,50,16,1,1024,1.08e+03,2.412e+03,13490.0
+iqoo,Neo 6,82,True,False,True,snapdragon,8,3.2,4700,80.0,8,128,6.62,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,28999.0
+iqoo,Z6,78,True,False,False,snapdragon,8,2.2,5000,18.0,4,128,6.58,120.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,15499.0
+oppo,Reno 9 Pro,86,True,True,False,dimensity,8,2.85,4500,67.0,16,256,6.7,120.0,2,1,android,50,32,0,736,1.08e+03,2.412e+03,39999.0
+poco,M4 Pro,76,True,False,True,dimensity,8,2.4,5000,33.0,4,64,6.6,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,12999.0
+oneplus,Clover,69,False,False,False,snapdragon,8,1.8,6000,18.0,4,64,6.52,60.0,3,1,android,13,8,1,736,720.0,1.56e+03,14999.0
+samsung,Galaxy F04,68,False,False,False,helio,8,2.3,5000,15.0,4,64,6.5,60.0,2,1,android,13,5,1,1024,720.0,1.6e+03,8499.0
+iqoo,7,83,True,True,False,snapdragon,8,3.2,4400,66.0,8,128,6.62,120.0,3,1,android,48,16,0,736,1.08e+03,2.4e+03,24990.0
+samsung,Galaxy M34,84,True,True,False,exynos,8,2.4,6000,25.0,6,128,6.5,120.0,4,1,android,64,32,1,736,1.08e+03,2.4e+03,16999.0
+xiaomi,Redmi 10,71,False,False,False,snapdragon,8,2.4,6000,18.0,4,64,6.7,60.0,2,1,android,50,5,1,512,720.0,1.6e+03,9589.0
+xiaomi,Redmi Note 12,79,True,False,True,snapdragon,8,2.0,5000,33.0,6,128,6.67,120.0,3,1,android,48,13,1,1024,1.08e+03,2.4e+03,19988.0
+motorola,Moto G52,75,False,True,False,snapdragon,8,2.4,5000,33.0,4,64,6.6,90.0,3,1,android,50,16,1,736,2.46e+03,1.08e+03,11999.0
+oppo,A98,87,True,True,False,snapdragon,8,3.0,5000,67.0,8,128,6.7,120.0,2,1,android,108,16,1,1024,1.08e+03,2.412e+03,30990.0
+infinix,Zero,85,True,False,False,dimensity,8,2.6,5000,33.0,8,256,6.78,120.0,3,1,android,50,16,1,256,1.08e+03,2.46e+03,19499.0
+oppo,F21 Pro,82,True,False,False,snapdragon,8,2.2,4500,33.0,8,128,6.43,60.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,25969.0
+realme,11 Pro,82,True,False,False,snapdragon,8,3.0,5000,65.0,6,128,6.4,120.0,3,1,android,64,32,1,256,1.08e+03,2.4e+03,28999.0
+realme,9 4G,81,False,False,False,snapdragon,8,2.4,5000,33.0,6,128,6.4,90.0,3,1,android,108,16,1,256,1.08e+03,2.4e+03,14999.0
+cola,Phone,74,False,False,False,helio,8,2.2,5000,33.0,4,64,6.4,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,14999.0
+oppo,Reno 10 Pro Plus,88,True,True,False,snapdragon,8,3.2,4700,80.0,12,256,6.73,120.0,4,1,android,64,32,0,736,1.08e+03,2.412e+03,58990.0
+vivo,X90,88,True,True,True,dimensity,8,3.05,4810,120.0,8,128,6.78,120.0,3,1,android,50,32,0,736,1.26e+03,2.8e+03,41990.0
+samsung,Galaxy F13,74,False,True,False,exynos,8,2.0,6000,15.0,4,64,6.6,60.0,3,1,android,50,8,1,1024,2.408e+03,1.08e+03,10999.0
+xiaomi,Redmi Note 10S,79,False,False,True,helio,8,2.05,5000,33.0,6,128,6.43,60.0,4,1,android,64,13,1,512,1.08e+03,2.4e+03,11999.0
+realme,10,79,False,False,False,helio,8,2.2,5000,33.0,8,128,6.4,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,16999.0
+iqoo,9 SE,83,True,True,False,snapdragon,8,2.84,4500,66.0,8,128,6.62,120.0,3,1,android,48,16,0,736,1.08e+03,2.4e+03,30990.0
+infinix,Hot 20,75,True,False,False,dimensity,8,2.4,5000,18.0,4,64,6.6,120.0,2,1,android,50,8,1,1024,1.08e+03,2.408e+03,17999.0
+xiaomi,Redmi Note 13 Pro Max,83,True,False,True,snapdragon,8,2.36,5200,67.0,6,128,6.67,120.0,4,1,android,108,32,1,512,1.08e+03,2.46e+03,20499.0
+realme,Narzo 50 Pro,81,True,False,False,dimensity,8,2.5,5000,33.0,6,128,6.4,90.0,3,1,android,48,16,1,256,1.08e+03,2.4e+03,20490.0
+oppo,A74,77,True,False,False,snapdragon,8,2.0,5000,18.0,6,128,6.5,90.0,3,1,android,48,8,1,736,1.08e+03,2.4e+03,15490.0
+iqoo,Z6 Lite,79,True,False,False,snapdragon,8,2.0,5000,18.0,6,128,6.58,120.0,2,1,android,50,8,1,1024,1.08e+03,2.408e+03,15499.0
+xiaomi,Redmi Note 11SE,80,False,False,True,helio,8,2.05,5000,33.0,6,64,6.43,60.0,4,1,android,64,13,1,512,1.08e+03,2.4e+03,11999.0
+realme,Narzo 50,74,False,False,False,helio,8,2.0,5000,33.0,4,64,6.6,120.0,3,1,android,50,16,1,256,1.08e+03,2.412e+03,10999.0
+vivo,Y75,82,True,False,False,dimensity,8,2.2,5000,18.0,8,128,6.58,60.0,3,1,android,50,16,1,736,1.08e+03,2.408e+03,21990.0
+vivo,V25,85,True,False,False,dimensity,8,2.0,4500,44.0,12,256,6.44,90.0,3,1,android,64,50,1,1024,1.08e+03,2.408e+03,31999.0
+poco,M4 Pro 4G,77,False,False,True,helio,8,2.05,5000,33.0,6,64,6.43,90.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,11999.0
+infinix,Zero Ultra,89,True,False,False,dimensity,8,2.5,4500,180.0,8,256,6.8,120.0,3,1,android,200,32,1,736,1.08e+03,2.4e+03,36999.0
+tecno,Spark Go 2023,67,False,False,False,helio,4,2.0,5000,10.0,3,32,6.56,60.0,2,1,android,13,5,1,256,720.0,1.6e+03,6999.0
+motorola,Moto X40,89,True,True,False,snapdragon,8,3.2,4600,125.0,8,128,6.7,165.0,3,1,android,50,60,0,736,1.08e+03,2.4e+03,39999.0
+samsung,Galaxy F24,78,True,True,False,snapdragon,8,2.2,5000,25.0,4,128,6.6,120.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,14999.0
+realme,10,79,True,False,False,dimensity,8,2.2,5000,33.0,8,128,6.6,90.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,14499.0
+oneplus,Nord 3,84,True,True,False,dimensity,8,3.1,4200,120.0,8,128,6.43,90.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,27999.0
+motorola,Moto G82,86,True,True,False,snapdragon,8,2.2,5000,30.0,8,128,6.6,120.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,20499.0
+leeco,S1 Pro,67,False,False,False,tiger,4,1.8,5000,10.0,8,128,6.5,60.0,2,1,android,13,5,0,736,720.0,1.6e+03,10999.0
+samsung,Galaxy M54,85,True,False,False,snapdragon,8,2.84,6000,25.0,6,128,6.67,90.0,3,1,android,64,32,1,1024,1.08e+03,2.412e+03,34999.0
+nokia,N73,78,True,False,False,snapdragon,8,3.0,6000,65.0,12,256,6.9,120.0,1,1,android,200,32,1,736,1.4e+03,3.2e+03,46999.0
+motorola,Edge 30 Fusion,88,True,True,False,snapdragon,8,2.9,4400,68.0,8,128,6.55,144.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,39999.0
+realme,C35,70,False,False,False,tiger,8,1.8,5000,18.0,4,64,6.6,60.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,11828.0
+oppo,Reno 8 Pro House of Dragon Edition,86,True,True,False,dimensity,8,2.85,4500,80.0,12,256,6.7,120.0,3,1,android,50,32,0,736,1.08e+03,2.412e+03,45999.0
+oneplus,Nord CE 3 Lite,81,True,False,False,snapdragon,8,2.2,5000,33.0,6,128,6.59,120.0,3,1,android,50,16,1,1024,1.08e+03,2.412e+03,18999.0
+poco,X4 Pro,84,True,False,True,snapdragon,8,2.2,5000,67.0,8,128,6.67,120.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,17999.0
+samsung,Galaxy M04,67,False,False,False,helio,8,2.3,5000,15.0,4,64,6.5,60.0,2,1,android,13,5,1,1024,720.0,1.6e+03,8499.0
+oppo,A77s,76,False,False,False,snapdragon,8,2.4,5000,33.0,8,128,6.56,90.0,2,1,android,50,8,1,736,720.0,1.6e+03,17999.0
+motorola,Edge 30 Ultra,78,True,True,False,snapdragon,8,3.2,4610,125.0,8,128,6.67,144.0,3,1,android,200,60,0,736,1.08e+03,2.4e+03,54999.0
+motorola,Moto G52,79,False,True,False,snapdragon,8,2.4,5000,33.0,6,128,6.6,90.0,3,1,android,50,16,1,736,2.46e+03,1.08e+03,12999.0
+poco,M4,75,True,False,True,dimensity,8,2.2,5000,18.0,4,64,6.58,90.0,2,1,android,50,8,1,512,1.08e+03,2.4e+03,11499.0
+nothing,Phone 1,87,True,True,False,snapdragon,8,2.5,4500,33.0,12,256,6.55,120.0,2,1,android,50,16,0,736,1.08e+03,2.4e+03,35999.0
+tecno,Pova 4,73,False,False,False,helio,8,2.2,6000,18.0,8,128,6.82,90.0,2,1,android,50,8,1,512,720.0,1.6e+03,11999.0
+xiaomi,Redmi Note 12 Pro,82,True,False,True,dimensity,8,2.6,5000,67.0,8,256,6.67,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,27994.0
+vivo,V25 Pro,86,True,False,False,dimensity,8,3.0,4830,66.0,12,256,6.56,120.0,3,1,android,64,32,0,736,1.08e+03,2.376e+03,39999.0
+realme,9,79,True,False,False,dimensity,8,2.4,5000,18.0,6,128,6.5,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,15499.0
+realme,9 Pro,80,True,False,False,snapdragon,8,2.2,5000,33.0,6,128,6.6,120.0,3,1,android,64,16,1,256,1.08e+03,2.412e+03,18999.0
+honor,X9a,81,True,True,True,snapdragon,8,2.2,5100,40.0,8,256,6.67,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,27999.0
+tecno,Pova 3,74,False,False,False,helio,8,2.0,7000,33.0,4,64,6.95,90.0,3,1,android,50,8,1,256,1.08e+03,2.46e+03,9999.0
+vivo,V23 Pro,85,True,False,False,dimensity,8,3.0,4300,44.0,8,128,6.56,90.0,3,2,android,108,50,0,736,1.08e+03,2.376e+03,31994.0
+xiaomi,Redmi K60,84,True,True,True,snapdragon,8,3.2,5500,67.0,8,128,6.67,120.0,3,1,android,64,16,0,736,1.44e+03,3.2e+03,29990.0
+realme,9 Pro Plus,78,True,False,False,dimensity,8,2.5,4500,60.0,6,128,6.4,90.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,25900.0
+realme,9i,78,True,False,False,dimensity,8,2.4,5000,18.0,6,128,6.6,90.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,16999.0
+motorola,Edge 30,85,True,True,False,snapdragon,8,2.5,4020,33.0,8,128,6.5,144.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,24999.0
+xiaomi,Redmi Note 11,79,False,False,True,snapdragon,8,2.4,5000,33.0,6,64,6.43,90.0,4,1,android,50,13,1,512,1.08e+03,2.4e+03,12188.0
+realme,Narzo 50,79,True,False,False,dimensity,8,2.4,5000,33.0,6,128,6.6,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,17999.0
+realme,GT Neo 3T,79,True,False,False,snapdragon,8,3.2,5000,80.0,6,128,6.62,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,24999.0
+oppo,Reno 8 Pro,86,True,True,False,dimensity,8,2.85,4500,80.0,12,256,6.7,120.0,3,1,android,50,32,0,736,1.08e+03,2.412e+03,45999.0
+iqoo,11 Pro,89,True,True,True,snapdragon,8,3.2,4700,200.0,8,256,6.78,144.0,3,1,android,50,16,0,736,1.44e+03,3.2e+03,58990.0
+vivo,T1x 4G,74,False,False,False,snapdragon,8,2.4,5000,18.0,4,64,6.58,90.0,2,1,android,50,8,1,736,1.08e+03,2.408e+03,11999.0
+xiaomi,Redmi 10 Power,77,False,False,True,snapdragon,8,2.4,6000,18.0,8,128,6.7,60.0,2,1,android,50,5,1,736,720.0,1.65e+03,11999.0
+oppo,A58,76,True,False,False,dimensity,8,2.2,5000,33.0,6,128,6.56,90.0,2,1,android,50,8,1,1024,720.0,1.612e+03,18990.0
+vivo,T1 44W,77,False,False,False,snapdragon,8,2.4,5000,44.0,4,128,6.44,60.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,14499.0
+vivo,Y16,67,False,False,False,helio,8,2.3,5000,10.0,3,64,6.51,60.0,2,1,android,13,5,1,736,720.0,1.6e+03,10499.0
+oppo,Reno 8 Z,86,True,True,False,snapdragon,8,2.2,4500,33.0,8,256,6.43,60.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,26990.0
+vivo,Y75 4G,82,False,False,False,helio,8,2.05,4050,44.0,8,128,6.44,60.0,3,1,android,50,44,1,1024,1.08e+03,2.4e+03,19990.0
+xiaomi,Redmi Note 12 Explorer,89,True,True,True,dimensity,8,2.6,4300,120.0,8,256,6.67,120.0,3,1,android,200,16,1,512,1.08e+03,2.4e+03,24999.0
+oppo,A57 4G,69,False,False,False,helio,8,2.3,5000,33.0,4,64,6.56,60.0,2,1,android,13,8,1,736,720.0,1.612e+03,13969.0
+vivo,T1 Pro,84,True,False,False,snapdragon,8,2.4,4700,66.0,8,128,6.44,90.0,3,1,android,64,16,1,1024,1.08e+03,2.404e+03,24999.0
+google,Pixel 7,86,True,True,False,google,8,2.85,4355,30.0,8,128,6.3,90.0,2,1,android,50,10,0,736,1.08e+03,2.4e+03,53100.0
+xiaomi,Redmi Note 11T,81,True,False,True,dimensity,8,2.4,5000,33.0,6,128,6.6,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,16999.0
+oppo,F21s Pro 4G,82,False,False,False,snapdragon,8,2.4,4500,33.0,8,128,6.43,90.0,3,1,android,64,32,1,512,1.08e+03,2.4e+03,21899.0
+motorola,Moto G73,85,True,True,False,dimensity,8,2.2,5000,30.0,8,256,6.5,120.0,2,1,android,50,16,1,736,1.08e+03,2.4e+03,25999.0
+nubia,Red Magic 8 Pro,84,True,True,False,snapdragon,8,3.2,6000,80.0,8,128,6.8,120.0,3,1,android,50,16,0,736,1.116e+03,2.48e+03,46990.0
+motorola,Moto G31,75,False,False,False,helio,8,2.0,5000,20.0,4,64,6.47,60.0,3,1,android,50,13,1,1024,1.08e+03,2.4e+03,9999.0
+tecno,Phantom X2 Pro,89,True,True,False,dimensity,8,3.05,5160,45.0,12,256,6.8,120.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,49999.0
+infinix,Zero 20,87,False,True,False,helio,8,2.2,4500,45.0,8,128,6.7,90.0,3,1,android,108,60,1,2048,1.08e+03,2.4e+03,17999.0
+iqoo,Z6,80,True,False,False,snapdragon,8,2.2,5000,18.0,6,128,6.58,120.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,16940.0
+xiaomi,Redmi Note 11 Pro,81,True,False,True,snapdragon,8,2.2,5000,67.0,6,64,6.67,120.0,3,1,android,108,16,1,736,1.08e+03,2.4e+03,17990.0
+oppo,A1 Pro,84,True,True,False,snapdragon,8,2.2,4800,67.0,8,128,6.7,120.0,2,1,android,108,16,1,1024,1.08e+03,2.412e+03,20990.0
+samsung,Galaxy S22 Plus,87,True,True,False,snapdragon,8,3.0,4500,45.0,8,128,6.6,120.0,3,1,android,50,10,0,736,1.08e+03,2.34e+03,64449.0
+vivo,U3x,71,True,False,False,snapdragon,8,2.0,5000,18.0,6,64,6.58,90.0,2,1,android,13,8,0,736,1.08e+03,2.408e+03,8990.0
+motorola,Moto G23,77,False,True,False,helio,8,2.0,5000,30.0,4,128,6.5,90.0,3,1,android,50,16,1,512,720.0,1.6e+03,19999.0
+poco,M4,79,True,False,True,dimensity,8,2.2,5000,18.0,6,128,6.58,90.0,2,1,android,50,8,1,512,1.08e+03,2.4e+03,13499.0
+tecno,Pova,78,True,False,False,dimensity,8,2.4,6000,18.0,8,128,6.9,120.0,3,1,android,50,16,1,512,1.08e+03,2.46e+03,15499.0
+samsung,Galaxy A53,89,True,True,False,exynos,8,2.4,5000,25.0,8,256,6.5,120.0,4,1,android,64,32,1,1024,1.08e+03,2.4e+03,36499.0
+infinix,Note 12,78,True,False,False,dimensity,8,2.4,5000,33.0,6,64,6.7,60.0,3,1,android,50,16,1,2048,1.08e+03,2.4e+03,15999.0
+oppo,Reno7 Pro,87,True,True,False,dimensity,8,3.0,4500,65.0,12,256,6.55,90.0,3,1,android,50,32,1,736,1.08e+03,2.4e+03,31994.0
+oneplus,Ace 2,84,True,True,False,snapdragon,8,3.2,5000,100.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,34999.0
+redmi,Note 11 Pro 2023,81,False,False,True,snapdragon,8,2.3,5000,67.0,6,128,6.67,120.0,4,1,android,108,16,1,1024,1.08e+03,2.4e+03,18999.0
+nothing,Phone 2,88,True,True,False,snapdragon,8,3.2,4700,66.0,8,128,6.67,120.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,39990.0
+samsung,Galaxy A32,82,False,False,False,helio,8,2.0,5000,15.0,8,128,6.4,90.0,4,1,android,64,20,1,1024,1.08e+03,2.4e+03,16499.0
+google,Pixel 6 Pro,89,True,True,False,google,8,2.8,5003,30.0,12,128,6.71,120.0,3,1,android,50,11,0,736,1.44e+03,3.12e+03,54300.0
+infinix,Note 12i (2022),73,False,False,False,helio,8,2.0,5000,33.0,4,64,6.7,60.0,3,1,android,50,8,1,512,1.08e+03,2.4e+03,9999.0
+xiaomi,Redmi 11 Prime,77,True,False,True,dimensity,8,2.2,5000,18.0,6,128,6.58,90.0,2,1,android,50,5,1,512,1.08e+03,2.408e+03,15990.0
+xiaomi,Redmi Note 11 Pro Plus,86,True,False,True,snapdragon,8,2.2,5000,67.0,8,128,6.67,120.0,3,1,android,108,16,1,1024,1.08e+03,2.4e+03,22700.0
+xiaomi,12 Pro,89,True,True,True,snapdragon,8,3.0,4600,120.0,8,256,6.73,120.0,3,1,android,50,32,0,736,1.44e+03,3.2e+03,50990.0
+tecno,Pova 3,77,False,False,False,helio,8,2.0,7000,33.0,6,128,6.9,90.0,3,1,android,50,8,1,256,1.08e+03,2.46e+03,13799.0
+vivo,V23e,84,True,False,False,dimensity,8,2.4,4050,44.0,8,128,6.44,60.0,3,1,android,50,44,1,736,1.08e+03,2.4e+03,21994.0
+xiaomi,Redmi Note 10T,75,True,False,True,dimensity,8,2.2,5000,18.0,4,64,6.5,90.0,3,1,android,48,8,1,1024,1.08e+03,2.4e+03,12999.0
+iqoo,Neo 7 SE,83,True,True,False,dimensity,8,3.1,5000,120.0,8,128,6.78,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,24990.0
+samsung,Galaxy A23,82,False,False,False,snapdragon,8,2.4,5000,25.0,8,128,6.6,60.0,4,1,android,50,8,1,1024,1.08e+03,2.408e+03,19990.0
+xiaomi,Redmi Note 12 Pro,82,True,False,True,dimensity,8,2.6,5000,67.0,8,128,6.67,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,26999.0
+xiaomi,Redmi Note 12 Turbo,81,True,True,True,snapdragon,8,2.4,5000,67.0,8,128,6.67,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,19999.0
+infinix,Note 12 Pro,83,False,False,False,helio,8,2.2,5000,33.0,8,256,6.7,60.0,3,1,android,108,16,1,2048,1.08e+03,2.4e+03,16900.0
+infinix,Hot 20,78,True,False,False,dimensity,8,2.4,5000,18.0,6,128,6.6,120.0,2,1,android,50,8,1,1024,1.08e+03,2.408e+03,19999.0
+samsung,Galaxy M13,75,False,False,False,exynos,8,2.0,6000,15.0,6,128,6.6,60.0,3,1,android,50,8,1,1024,1.08e+03,2.4e+03,12999.0
+poco,M4 Pro,82,True,False,True,dimensity,8,2.4,5000,33.0,8,128,6.6,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,15999.0
+xiaomi,Redmi Note 10S,82,False,False,True,helio,8,2.05,5000,33.0,8,128,6.43,60.0,4,1,android,64,13,1,512,1.08e+03,2.4e+03,13999.0
+samsung,Galaxy A23,81,True,False,False,snapdragon,8,2.2,5000,25.0,8,128,6.6,120.0,4,1,android,50,8,1,1024,1.08e+03,2.408e+03,24999.0
+motorola,Edge 30 Ultra,78,True,True,False,snapdragon,8,3.2,4610,125.0,12,256,6.67,144.0,3,1,android,200,60,0,736,1.08e+03,2.4e+03,59999.0
+oppo,F21s Pro,82,True,False,False,snapdragon,8,2.2,4500,33.0,8,128,6.43,60.0,3,1,android,64,16,1,512,1.08e+03,2.4e+03,25895.0
+xiaomi,13,89,True,True,True,snapdragon,8,3.2,4500,67.0,8,128,6.36,120.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,46990.0
+vivo,Y01A,67,False,False,False,helio,8,2.3,5000,10.0,2,32,6.51,60.0,1,1,android,8,5,1,736,720.0,1.6e+03,7790.0
+xiaomi,Redmi K50i,85,True,False,True,dimensity,8,2.85,5080,67.0,8,256,6.6,144.0,3,1,android,64,16,0,736,1.08e+03,2.46e+03,25999.0
+xiaomi,Redmi 10,75,False,False,False,snapdragon,8,2.4,6000,18.0,6,128,6.7,60.0,2,1,android,50,5,1,512,720.0,1.6e+03,11999.0
+xiaomi,Mi 11 Lite NE,83,True,True,True,snapdragon,8,2.4,4250,33.0,6,128,6.55,90.0,3,1,android,64,20,1,736,1.08e+03,2.4e+03,21890.0
+oneplus,10T,87,True,True,False,snapdragon,8,3.2,4800,150.0,16,256,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,55999.0
+oppo,Reno7,85,True,True,False,dimensity,8,2.0,4500,65.0,8,256,6.43,90.0,3,1,android,64,32,1,1024,1.08e+03,2.4e+03,25994.0
+samsung,Galaxy A53,89,True,True,False,exynos,8,2.4,5000,25.0,8,128,6.5,120.0,4,1,android,64,32,1,1024,1.08e+03,2.4e+03,33499.0
+motorola,Moto G71,80,True,True,False,snapdragon,8,2.2,5000,33.0,6,128,6.4,60.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,16999.0
+vivo,Y100,82,True,False,False,dimensity,8,2.4,5000,66.0,8,128,6.0,120.0,3,2,android,50,50,0,736,1.08e+03,2.4e+03,29990.0
+samsung,Galaxy M13,71,True,False,False,dimensity,8,2.2,5000,15.0,4,64,6.5,90.0,2,1,android,50,5,1,1024,720.0,1.6e+03,12944.0
+poco,X5 GT,84,True,True,True,dimensity,8,3.2,5000,80.0,8,128,6.7,144.0,3,1,android,64,32,0,736,1.08e+03,2.4e+03,29990.0
+honor,X9,80,True,True,False,snapdragon,8,2.2,4800,66.0,8,128,6.81,60.0,3,1,android,48,16,0,736,1.08e+03,2.388e+03,16999.0
+samsung,Galaxy A33,85,True,True,False,exynos,8,2.4,5000,25.0,8,128,6.4,90.0,4,1,android,48,13,1,1024,1.08e+03,2.4e+03,27499.0
+google,Pixel 6,84,True,True,False,google,8,2.8,4614,30.0,8,128,6.4,90.0,2,1,android,50,8,0,736,1.08e+03,2.4e+03,40480.0
+xiaomi,Redmi Note 10 Pro,81,False,False,True,snapdragon,8,2.3,5020,33.0,6,128,6.67,120.0,4,1,android,64,16,1,512,1.08e+03,2.4e+03,17999.0
+infinix,Hot 20 Play,67,False,False,False,helio,8,2.3,6000,18.0,4,64,6.82,90.0,2,1,android,13,8,1,256,720.0,1.64e+03,8999.0
+vivo,T1x,77,False,False,False,snapdragon,8,2.4,5000,18.0,6,128,6.58,90.0,2,1,android,50,8,1,736,1.08e+03,2.408e+03,14999.0
+oppo,F23 Pro,82,True,False,False,snapdragon,8,2.2,4500,33.0,8,128,6.5,90.0,3,1,android,64,32,1,256,1.08e+03,2.4e+03,19990.0
+iqoo,Z6 Pro,80,True,False,False,snapdragon,8,2.4,4700,66.0,8,128,6.44,90.0,3,1,android,64,16,0,736,1.08e+03,2.404e+03,23399.0
+samsung,Galaxy A73,78,True,True,False,snapdragon,8,2.4,5000,25.0,8,256,6.7,120.0,4,1,android,108,32,1,1024,1.08e+03,2.4e+03,41990.0
+realme,9,82,True,False,False,snapdragon,8,2.4,5000,30.0,8,128,6.6,144.0,3,1,android,48,16,1,1024,1.08e+03,2.412e+03,22998.0
+poco,F4,82,True,True,False,snapdragon,8,3.2,4500,67.0,6,128,6.67,120.0,3,1,android,64,20,0,736,1.08e+03,2.4e+03,25999.0
+infinix,Note 12,74,False,False,False,helio,8,2.0,5000,33.0,4,64,6.7,60.0,3,1,android,50,16,1,512,2.4e+03,1.08e+03,11700.0
+motorola,Moto G60,84,False,True,False,snapdragon,8,2.3,6000,20.0,6,128,6.78,120.0,3,1,android,108,32,1,1024,1.08e+03,2.46e+03,15999.0
+oneplus,9 Pro,89,True,True,False,snapdragon,8,2.84,4500,65.0,8,128,6.7,120.0,4,1,android,48,16,0,736,1.44e+03,3.216e+03,64800.0
+xiaomi,Redmi Note 11S,80,False,False,True,helio,8,2.05,5000,33.0,6,64,6.43,90.0,4,1,android,108,16,1,512,1.08e+03,2.4e+03,14590.0
+tecno,Camon 19 Pro,82,True,True,False,dimensity,8,2.4,5000,33.0,8,128,6.8,120.0,3,1,android,64,16,0,736,1.08e+03,2.46e+03,21999.0
+poco,M4 Pro 4G,79,False,False,True,helio,8,2.05,5000,33.0,6,128,6.43,90.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,12999.0
+oneplus,Nord N20,81,True,True,False,snapdragon,8,2.2,4500,33.0,6,128,6.43,60.0,3,1,android,64,16,1,736,1.08e+03,2.4e+03,20990.0
+vivo,X90 Pro,78,True,True,True,dimensity,8,3.05,4870,120.0,8,256,6.78,120.0,3,1,android,50,32,0,736,1.26e+03,2.8e+03,56999.0
+motorola,Moto G53,79,True,True,False,snapdragon,8,2.2,5000,10.0,4,128,6.5,120.0,2,1,android,50,16,1,1024,720.0,1.6e+03,21999.0
+motorola,Moto G22,75,False,False,False,helio,8,2.3,5000,20.0,4,64,6.53,90.0,4,1,android,50,16,1,1024,720.0,1.6e+03,9499.0
+xiaomi,Redmi 9i Sport,67,False,False,False,helio,8,2.0,5000,10.0,4,64,6.53,60.0,1,1,android,13,5,1,512,720.0,1.6e+03,7499.0
+xiaomi,Redmi K60 Pro,85,True,True,True,snapdragon,8,3.2,5000,120.0,8,128,6.67,120.0,3,1,android,54,16,0,736,1.44e+03,3.2e+03,38999.0
+realme,C30s,78,False,False,False,unisoc,8,1.6,5000,10.0,2,32,6.5,60.0,1,1,android,8,5,1,1024,720.0,1.6e+03,7145.0
+vivo,Y22s,77,False,False,False,snapdragon,8,2.4,5000,18.0,8,128,6.55,90.0,2,1,android,50,8,1,1024,1.612e+03,720.0,14990.0
+oppo,A77,70,False,False,False,helio,8,2.3,5000,33.0,4,64,6.56,60.0,2,1,android,50,8,1,736,720.0,1.6e+03,15499.0
+poco,F4,86,True,True,False,snapdragon,8,3.2,4500,67.0,12,256,6.67,120.0,3,1,android,64,20,0,736,1.08e+03,2.4e+03,29999.0
+realme,9 4G,84,False,False,False,snapdragon,8,2.4,5000,33.0,8,128,6.4,90.0,3,1,android,108,16,1,256,1.08e+03,2.4e+03,15999.0
+xiaomi,12T Pro,89,True,True,True,snapdragon,8,3.2,5000,120.0,8,128,6.67,120.0,3,1,android,200,20,0,736,1.22e+03,2.712e+03,59990.0
+iqoo,9,84,True,False,False,snapdragon,8,2.9,4350,120.0,8,128,6.56,120.0,3,1,android,48,16,0,736,1.08e+03,2.376e+03,34990.0
+oneplus,10T,87,True,True,False,snapdragon,8,3.2,4800,150.0,12,256,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,50999.0
+samsung,Galaxy S21 FE,88,True,True,False,exynos,8,2.9,4500,25.0,8,256,6.4,120.0,3,1,android,12,32,0,736,1.08e+03,2.34e+03,43999.0
+xiaomi,Redmi Note 11T,83,True,False,True,dimensity,8,2.4,5000,33.0,8,128,6.6,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,18499.0
+vivo,V21 Pro,85,True,False,False,snapdragon,8,2.4,4300,33.0,8,128,6.44,60.0,4,2,android,64,44,0,736,1.08e+03,2.4e+03,32999.0
+poco,X3,80,False,False,True,snapdragon,8,2.3,6000,33.0,6,64,6.67,120.0,4,1,android,64,20,1,512,1.08e+03,2.4e+03,13499.0
+samsung,Galaxy S20 FE,86,False,True,False,exynos,8,2.73,4500,25.0,8,128,6.5,120.0,3,1,android,12,32,1,1024,1.08e+03,2.4e+03,35489.0
+samsung,Galaxy S10 Plus,81,False,True,False,exynos,8,2.7,4100,15.0,8,128,6.4,60.0,3,2,android,16,10,1,512,1.44e+03,3.04e+03,42999.0
+realme,11 Pro Plus,78,True,False,False,dimensity,8,2.2,4200,66.0,6,128,6.4,90.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,24999.0
+oppo,F21 Pro 4G,82,False,False,False,snapdragon,8,2.4,4500,33.0,8,128,6.5,90.0,3,1,android,64,32,1,256,1.08e+03,2.4e+03,20999.0
+realme,GT 2,84,True,True,False,snapdragon,8,2.84,5000,65.0,8,128,6.62,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,28994.0
+samsung,Galaxy S21,88,True,True,False,exynos,8,2.9,4000,25.0,8,128,6.2,120.0,3,1,android,64,10,0,736,1.08e+03,2.4e+03,48900.0
+samsung,Galaxy A71,86,False,False,False,snapdragon,8,2.2,4500,25.0,8,128,6.7,60.0,4,1,android,64,32,1,1024,1.08e+03,2.4e+03,22494.0
+vivo,Y02s,67,False,False,False,helio,8,2.3,5000,10.0,3,32,6.51,60.0,1,1,android,8,5,1,736,720.0,1.6e+03,8990.0
+iqoo,Z6,82,True,False,False,snapdragon,8,2.2,5000,18.0,8,128,6.58,120.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,18498.0
+vivo,T1 Pro,81,True,False,False,snapdragon,8,2.4,4700,66.0,6,128,6.44,90.0,3,1,android,64,16,1,1024,1.08e+03,2.404e+03,23999.0
+realme,9 Pro Plus,81,True,False,False,dimensity,8,2.5,4500,60.0,8,128,6.4,90.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,22994.0
+samsung,Galaxy A04s,71,False,False,False,exynos,8,2.0,5000,15.0,4,64,6.5,90.0,3,1,android,50,5,1,1024,720.0,1.6e+03,12990.0
+realme,9i,78,False,False,False,snapdragon,8,2.4,5000,33.0,6,128,6.6,90.0,3,1,android,50,16,1,1024,1.08e+03,2.412e+03,14999.0
+realme,8,80,True,False,False,dimensity,8,2.2,5000,18.0,8,128,6.5,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,18499.0
+oppo,F19,78,False,False,False,snapdragon,8,2.0,5000,33.0,6,128,6.4,60.0,3,1,android,48,16,1,256,1.08e+03,2.4e+03,14990.0
+samsung,Galaxy M32 Prime Edition,75,False,False,False,helio,8,2.0,6000,15.0,4,64,6.4,90.0,4,1,android,64,20,1,1024,1.08e+03,2.4e+03,12120.0
+oukitel,WP19,84,False,True,False,helio,8,2.0,21000,33.0,8,256,6.78,60.0,3,1,android,64,16,1,736,1.08e+03,2.4e+03,29990.0
+realme,9 Pro,82,True,False,False,snapdragon,8,2.2,5000,33.0,8,128,6.6,120.0,3,1,android,64,16,1,256,1.08e+03,2.412e+03,20999.0
+xiaomi,Redmi Note 10 Lite,80,False,False,True,snapdragon,8,2.3,5020,18.0,6,128,6.67,60.0,4,1,android,48,16,1,512,1.08e+03,2.4e+03,11999.0
+samsung,Galaxy A13,73,True,True,False,dimensity,8,2.2,5000,15.0,4,64,6.5,90.0,3,1,android,50,5,1,736,720.0,1.6e+03,17990.0
+xiaomi,Redmi Note 11,77,True,False,True,dimensity,8,2.4,5000,33.0,4,128,6.6,90.0,2,1,android,50,16,1,512,1.08e+03,2.4e+03,14990.0
+realme,GT Neo 5,83,True,True,False,snapdragon,8,3.2,4600,240.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,34999.0
+poco,C50,78,False,False,False,helio,4,2.0,5000,10.0,2,32,6.52,60.0,2,1,android,8,5,1,512,720.0,1.6e+03,6499.0
+realme,9i,75,False,False,False,snapdragon,8,2.4,5000,33.0,4,128,6.6,90.0,3,1,android,50,16,1,1024,1.08e+03,2.412e+03,13999.0
+xiaomi,Redmi Note 11T,79,True,False,True,dimensity,8,2.4,5000,33.0,6,64,6.6,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,16999.0
+oppo,Reno 6 Pro,87,True,True,False,dimensity,8,3.0,4500,65.0,12,256,6.55,90.0,4,1,android,64,32,0,736,1.08e+03,2.4e+03,36760.0
+xiaomi,Mi 11i,81,True,False,True,dimensity,8,2.5,5160,67.0,6,128,6.67,120.0,3,1,android,108,16,1,1024,2.4e+03,1.08e+03,23499.0
+oppo,A77,76,True,False,False,snapdragon,8,2.4,5000,33.0,6,128,6.56,90.0,2,1,android,48,8,1,736,720.0,1.6e+03,21990.0
+realme,9,80,True,False,False,snapdragon,8,2.4,5000,30.0,6,128,6.6,144.0,3,1,android,48,16,1,1024,1.08e+03,2.412e+03,18999.0
+samsung,Galaxy A03,67,False,False,False,unisoc,8,1.6,5000,15.0,3,32,6.5,60.0,2,1,android,48,5,1,1024,720.0,1.56e+03,7249.0
+oneplus,Nord N200,75,True,True,False,snapdragon,8,2.0,5000,18.0,4,64,6.49,90.0,3,1,android,13,16,1,736,1.08e+03,2.4e+03,16990.0
+xiaomi,Mi 11X,80,True,False,True,snapdragon,8,3.2,4520,33.0,6,128,6.67,120.0,3,1,android,48,20,0,736,1.08e+03,2.4e+03,23890.0
+oppo,Reno 6,83,True,True,False,dimensity,8,2.0,4300,65.0,8,128,6.43,90.0,3,1,android,64,32,0,736,1.08e+03,2.4e+03,26380.0
+realme,X50 Pro,87,True,True,False,snapdragon,8,2.84,4200,65.0,12,256,6.44,90.0,4,2,android,64,32,0,736,1.08e+03,2.4e+03,27999.0
+redmi,Note 12 Pro Speed Edition,81,True,True,True,snapdragon,8,2.4,5000,67.0,6,128,6.67,120.0,3,1,android,108,16,0,736,1.08e+03,2.4e+03,19999.0
+motorola,Moto G72,81,True,True,False,snapdragon,8,2.2,5000,33.0,6,128,6.5,120.0,3,1,android,108,16,0,736,1.08e+03,2.4e+03,19990.0
+motorola,Moto X30 Pro,78,True,True,False,snapdragon,8,3.2,4450,125.0,8,128,6.67,144.0,3,1,android,200,60,0,736,1.08e+03,2.4e+03,41990.0
+honor,70,88,True,True,False,snapdragon,8,2.5,4800,66.0,12,512,6.67,120.0,3,1,android,54,32,0,736,1.08e+03,2.4e+03,39990.0
+vivo,V23 Pro,87,True,False,False,dimensity,8,3.0,4300,44.0,12,256,6.56,90.0,3,2,android,108,50,0,736,1.08e+03,2.376e+03,36994.0
+oppo,A55 4G,76,False,False,False,helio,8,2.3,5000,18.0,6,128,6.51,60.0,3,1,android,50,16,1,256,720.0,1.6e+03,14700.0
+xiaomi,Mi 11T Pro,86,True,True,True,snapdragon,8,2.84,5000,120.0,8,128,6.67,120.0,3,1,android,108,16,0,736,1.08e+03,2.4e+03,34990.0
+xiaomi,Redmi Note 10,75,False,False,True,snapdragon,8,2.2,5000,33.0,4,64,6.43,60.0,4,1,android,48,13,1,512,1.08e+03,2.4e+03,13990.0
+samsung,Galaxy M32 Prime Edition,79,False,False,False,helio,8,2.0,6000,15.0,6,128,6.4,90.0,4,1,android,64,20,1,1024,1.08e+03,2.4e+03,14859.0
+tecno,Camon 19 Pro Mondrian Edition,84,False,True,False,helio,8,2.05,5000,33.0,8,128,6.8,120.0,3,1,android,64,32,1,512,1.08e+03,2.46e+03,17999.0
+poco,F5,85,True,True,False,snapdragon,8,3.2,4700,67.0,8,128,6.7,120.0,3,1,android,64,32,0,736,1.08e+03,2.4e+03,34990.0
+motorola,Moto E32,71,False,False,False,helio,8,2.3,5000,10.0,4,64,6.5,90.0,2,1,android,50,8,1,1024,720.0,1.6e+03,8999.0
+xiaomi,Redmi Note 11S,84,False,False,True,helio,8,2.05,5000,33.0,8,128,6.43,90.0,4,1,android,108,16,1,512,1.08e+03,2.4e+03,15824.0
+samsung,Galaxy A52,86,False,False,False,snapdragon,8,2.3,4500,25.0,8,128,6.5,90.0,4,1,android,64,32,1,1024,1.08e+03,2.4e+03,22494.0
+poco,X3 Pro,82,False,False,True,snapdragon,8,2.96,5160,33.0,6,128,6.67,120.0,4,1,android,48,20,1,736,1.08e+03,2.4e+03,19650.0
+samsung,Galaxy A32,80,False,False,False,helio,8,2.0,5000,15.0,6,128,6.4,90.0,4,1,android,64,20,1,1024,1.08e+03,2.4e+03,16499.0
+motorola,Moto G13,75,False,True,False,helio,8,2.0,5000,10.0,4,128,6.5,90.0,3,1,android,50,8,1,512,720.0,1.6e+03,15999.0
+xiaomi,Redmi Note 12 Pro Plus,84,True,False,True,dimensity,8,2.6,4980,120.0,6,128,6.67,120.0,3,1,android,200,16,0,736,1.08e+03,2.4e+03,26999.0
+realme,C35,71,False,False,False,tiger,8,1.8,5000,18.0,4,128,6.6,90.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,12787.0
+infinix,Hot 12,72,False,False,False,helio,8,2.3,6000,18.0,4,64,6.82,90.0,3,1,android,50,8,1,512,720.0,1.64e+03,9999.0
+vivo,X80,86,True,False,False,dimensity,8,3.05,4500,80.0,8,128,6.78,120.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,54999.0
+vivo,Y53s,79,False,False,False,helio,8,2.0,5000,19.0,8,128,6.58,60.0,3,1,android,64,16,1,1024,1.08e+03,2.408e+03,15490.0
+tecno,Phantom X,84,False,False,False,helio,8,2.05,4700,33.0,8,256,6.7,90.0,3,2,android,50,48,0,736,1.08e+03,2.34e+03,25999.0
+samsung,Galaxy M04,68,False,False,False,helio,8,2.3,5000,15.0,4,128,6.5,60.0,2,1,android,13,5,1,1024,720.0,1.6e+03,9499.0
+asus,ZenFone 9,86,True,True,False,snapdragon,8,3.2,4300,30.0,8,128,5.9,120.0,2,1,android,50,12,0,736,1.08e+03,2.4e+03,63990.0
+iqoo,9 SE,85,True,True,False,snapdragon,8,2.84,4500,66.0,12,256,6.62,120.0,3,1,android,48,16,0,736,1.08e+03,2.4e+03,34949.0
+tecno,Spark 8 Pro,72,False,False,False,helio,8,2.0,5000,33.0,4,64,6.8,60.0,3,1,android,48,8,1,736,1.08e+03,2.46e+03,8799.0
+xiaomi,Redmi 10 Prime,74,False,False,True,helio,8,2.0,6000,18.0,4,64,6.5,90.0,4,1,android,50,8,1,512,1.08e+03,2.4e+03,12390.0
+oppo,Reno 10 Pro,86,True,True,False,dimensity,8,3.05,5000,120.0,16,256,6.73,120.0,2,1,android,50,32,0,736,1.08e+03,2.412e+03,42990.0
+nubia,Z50,82,True,True,False,snapdragon,8,3.2,5000,80.0,8,128,6.67,144.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,34999.0
+samsung,Galaxy F13,75,False,True,False,exynos,8,2.0,6000,15.0,4,128,6.6,60.0,3,1,android,50,8,1,1024,2.408e+03,1.08e+03,11999.0
+nokia,G11 Plus,70,False,False,False,unisoc,8,1.6,5000,10.0,4,64,6.52,90.0,2,1,android,50,8,1,512,720.0,1.6e+03,10499.0
+infinix,Hot 12 Play,67,False,False,False,tiger,8,1.82,6000,18.0,4,64,6.82,90.0,2,1,android,13,8,1,256,1.64e+03,720.0,8910.0
+vivo,T2,85,True,False,False,snapdragon,8,3.2,4700,80.0,8,128,6.62,120.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,24990.0
+oppo,Reno7 Z,84,True,True,False,snapdragon,8,2.2,4500,33.0,8,128,6.43,60.0,3,1,android,64,16,1,736,1.08e+03,2.4e+03,17999.0
+xiaomi,Mi 11 Lite NE,86,True,True,True,snapdragon,8,2.4,4250,33.0,8,128,6.55,90.0,3,1,android,64,20,1,736,1.08e+03,2.4e+03,22999.0
+infinix,Zero X Pro,85,True,False,False,helio,8,2.05,4500,45.0,8,128,6.67,120.0,3,1,android,108,16,1,512,1.08e+03,2.4e+03,21990.0
+samsung,Galaxy M32,76,False,False,False,helio,8,2.0,6000,15.0,4,64,6.4,90.0,4,1,android,64,20,1,1024,1.08e+03,2.4e+03,12364.0
+samsung,Galaxy A82,86,True,True,False,snapdragon,8,2.96,4500,25.0,6,128,6.71,120.0,3,1,android,64,10,1,1024,1.44e+03,3.2e+03,39990.0
+motorola,Moto E13,67,False,False,False,tiger,8,2.0,5000,10.0,2,64,6.5,60.0,1,1,android,13,5,1,1024,720.0,1.6e+03,10499.0
+samsung,Galaxy F63,84,True,True,False,dimensity,8,2.0,7000,33.0,6,128,6.7,60.0,4,1,android,64,32,1,1024,1.08e+03,2.4e+03,21999.0
+iqoo,Z6 4G,80,False,False,False,snapdragon,8,2.4,5000,44.0,6,128,6.44,120.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,15999.0
+tecno,Pova 4 Pro,74,False,False,False,helio,8,2.2,6000,45.0,8,256,6.66,90.0,2,1,android,50,8,1,1024,720.0,1.6e+03,15999.0
+huawei,Nova 10 SE,84,False,True,False,snapdragon,8,2.4,4500,66.0,8,256,6.67,90.0,3,1,android,108,16,1,736,1.08e+03,2.16e+03,23999.0
+vivo,T1x,75,False,False,False,snapdragon,8,2.4,5000,18.0,4,128,6.58,90.0,2,1,android,50,8,1,736,1.08e+03,2.408e+03,12999.0
+nubia,Red Magic 7S Pro,86,True,True,False,snapdragon,8,3.2,5000,135.0,12,256,6.8,120.0,3,1,android,64,8,0,736,1.08e+03,2.4e+03,60990.0
+motorola,Moto E32s,67,False,False,False,helio,8,1.8,5000,18.0,4,64,6.5,90.0,3,1,android,16,8,1,736,720.0,1.6e+03,8859.0
+iqoo,Neo 6,84,True,False,True,snapdragon,8,3.2,4700,80.0,12,256,6.62,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,33749.0
+poco,X4 GT,84,True,True,True,dimensity,8,2.85,5080,67.0,8,128,6.6,144.0,3,1,android,64,16,0,736,1.08e+03,2.46e+03,24990.0
+realme,Narzo 50,76,True,False,False,dimensity,8,2.4,5000,33.0,4,128,6.6,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,14999.0
+vivo,Y77,76,True,False,False,dimensity,8,2.2,4500,80.0,6,128,6.64,120.0,2,1,android,50,8,1,1024,1.08e+03,2.388e+03,17990.0
+honor,60 SE,75,True,False,False,dimensity,8,2.0,4300,66.0,8,128,6.67,120.0,3,1,android,64,16,0,736,1.08e+03,2.34e+03,24990.0
+xiaomi,Redmi 11 Prime,74,False,False,True,helio,8,2.2,5000,18.0,4,64,6.58,90.0,3,1,android,50,8,1,512,1.08e+03,2.4e+03,11600.0
+motorola,Moto G31,78,False,False,False,helio,8,2.0,5000,20.0,6,128,6.47,60.0,3,1,android,50,13,1,1024,1.08e+03,2.4e+03,11999.0
+xiaomi,Redmi A1 Plus,67,False,False,False,helio,4,2.0,5000,10.0,2,32,6.52,60.0,2,1,android,8,5,1,512,720.0,1.6e+03,7289.0
+honor,70,86,True,True,False,snapdragon,8,2.5,4800,66.0,8,256,6.67,120.0,3,1,android,54,32,0,736,1.08e+03,2.4e+03,30990.0
+realme,Narzo 50,77,False,False,False,helio,8,2.0,5000,33.0,6,128,6.6,120.0,3,1,android,50,16,1,256,1.08e+03,2.412e+03,15499.0
+samsung,Galaxy M32,80,False,False,False,helio,8,2.0,6000,15.0,6,128,6.4,90.0,4,1,android,64,20,1,1024,1.08e+03,2.4e+03,14490.0
+samsung,Galaxy F42,80,True,False,False,dimensity,8,2.2,5000,15.0,6,128,6.6,90.0,3,1,android,64,8,1,1024,1.08e+03,2.408e+03,15490.0
+realme,Q5,78,True,False,False,snapdragon,8,2.2,5000,60.0,6,128,6.6,120.0,3,1,android,50,16,1,736,1.08e+03,2.412e+03,14990.0
+poco,M3 Pro,75,True,False,True,dimensity,8,2.2,5000,18.0,4,64,6.5,90.0,3,1,android,48,8,1,1024,1.08e+03,2.4e+03,15999.0
+google,Pixel 5,82,True,True,False,snapdragon,8,2.4,4080,18.0,8,128,6.0,90.0,2,1,android,16,8,0,736,1.08e+03,2.34e+03,36000.0
+xiaomi,Redmi Note 12 Discovery Edition,86,True,True,True,dimensity,8,2.6,4300,210.0,8,256,6.67,120.0,3,1,android,200,16,0,736,1.08e+03,2.4e+03,26990.0
+samsung,Galaxy M13,71,False,False,False,exynos,8,2.0,6000,15.0,4,64,6.6,60.0,3,1,android,50,8,1,1024,1.08e+03,2.4e+03,10630.0
+oppo,Reno 8 Pro,85,True,True,False,dimensity,8,2.85,4500,80.0,8,256,6.7,120.0,3,1,android,50,32,0,736,1.08e+03,2.412e+03,42990.0
+iqoo,Z6 4G,77,False,False,False,snapdragon,8,2.4,5000,44.0,4,128,6.44,120.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,14489.0
+oppo,A76,73,False,False,False,snapdragon,8,2.4,5000,33.0,6,128,6.56,90.0,2,1,android,13,8,1,736,720.0,1.612e+03,16490.0
+realme,9 Pro Plus,82,True,False,False,dimensity,8,2.5,4500,60.0,8,256,6.4,90.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,24494.0
+motorola,Moto Edge S30,85,True,False,False,snapdragon,8,2.9,5000,33.0,6,128,6.8,144.0,3,1,android,108,16,0,736,1.08e+03,2.46e+03,23990.0
+realme,GT 2 Pro,89,True,True,False,snapdragon,8,3.0,5000,65.0,8,128,6.7,120.0,3,1,android,50,32,0,736,1.44e+03,3.216e+03,49959.0
+vivo,Y73 2021,80,False,False,False,helio,8,2.05,4000,33.0,8,128,6.44,60.0,3,1,android,64,16,1,736,1.08e+03,2.4e+03,19990.0
+vivo,V20,85,False,False,False,snapdragon,8,2.3,4000,33.0,8,128,6.44,60.0,3,1,android,64,44,1,1024,1.08e+03,2.4e+03,23269.0
+xiaomi,Redmi Note 9 Pro,75,False,False,True,snapdragon,8,2.3,5020,18.0,4,64,6.67,60.0,4,1,android,48,16,1,512,1.08e+03,2.4e+03,13999.0
+oneplus,10R Prime Edition,85,True,True,False,dimensity,8,2.85,5000,80.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,35389.0
+nokia,C31,67,False,False,False,unisoc,8,1.6,5050,10.0,3,32,6.74,60.0,3,1,android,13,5,1,256,720.0,1.6e+03,9499.0
+infinix,Hot 12 Pro,76,False,False,False,tiger,8,2.0,5000,18.0,8,128,6.6,90.0,2,1,android,50,8,1,256,720.0,1.612e+03,12340.0
+poco,M5,74,False,False,True,helio,8,2.2,5000,18.0,4,64,6.58,90.0,3,1,android,50,8,1,512,1.08e+03,2.4e+03,10799.0
+xiaomi,Redmi 10C,73,False,False,False,snapdragon,8,2.4,6000,18.0,4,128,6.7,60.0,2,1,android,50,5,1,512,720.0,1.6e+03,14990.0
+zte,Axon 40 Ultra,89,True,True,False,snapdragon,8,3.0,5000,65.0,8,128,6.8,120.0,3,1,android,64,16,0,736,1.116e+03,2.48e+03,61990.0
+xiaomi,12 Pro,78,True,True,True,snapdragon,8,3.0,4600,120.0,12,256,6.73,120.0,3,1,android,50,32,0,736,1.44e+03,3.2e+03,51880.0
+oppo,K10,80,False,False,False,snapdragon,8,2.4,5000,33.0,8,128,6.59,90.0,3,1,android,50,16,1,1024,1.08e+03,2.412e+03,16990.0
+huawei,Nova 9 SE,84,False,True,False,snapdragon,8,2.4,4000,66.0,8,128,6.78,90.0,4,1,android,108,16,1,736,1.08e+03,2.388e+03,19990.0
+samsung,Galaxy S22,87,True,True,False,snapdragon,8,3.0,3700,25.0,8,256,6.1,120.0,3,1,android,50,10,0,736,1.08e+03,2.34e+03,57999.0
+lenovo,Legion Y90,87,True,True,False,snapdragon,8,3.0,5600,68.0,12,256,6.92,144.0,2,1,android,64,16,0,736,1.08e+03,2.46e+03,46990.0
+vivo,Y55,77,True,True,False,dimensity,8,2.2,5000,18.0,4,128,6.58,60.0,3,1,android,50,8,1,736,1.08e+03,2.408e+03,20990.0
+nokia,X100,82,True,True,False,snapdragon,8,2.0,4470,18.0,6,128,6.67,60.0,4,1,android,48,16,1,1024,1.08e+03,2.4e+03,17990.0
+realme,8s,82,True,False,False,dimensity,8,2.4,5000,33.0,8,128,6.5,90.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,17499.0
+realme,8s,80,True,False,False,dimensity,8,2.4,5000,33.0,6,128,6.5,90.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,17999.0
+nokia,X60 Pro,78,True,False,False,snapdragon,8,3.2,6000,44.0,8,128,6.51,144.0,4,1,android,200,32,1,736,1.08e+03,2.408e+03,49990.0
+poco,X5,74,True,False,True,snapdragon,8,2.2,5000,33.0,4,128,6.67,120.0,3,1,android,48,8,0,736,1.08e+03,2.4e+03,14999.0
+xiaomi,Redmi Note 10 Pro Max,82,False,False,True,snapdragon,8,2.3,5020,33.0,6,128,6.67,120.0,4,1,android,108,16,1,512,1.08e+03,2.4e+03,19980.0
+iqoo,7,85,True,True,False,snapdragon,8,3.2,4400,66.0,12,256,6.62,120.0,3,1,android,48,16,0,736,1.08e+03,2.4e+03,35990.0
+realme,8,78,False,False,False,helio,8,2.0,5000,30.0,4,128,6.4,60.0,4,1,android,64,16,1,256,1.08e+03,2.4e+03,15999.0
+samsung,Galaxy S20,88,False,True,False,exynos,8,2.73,4000,25.0,8,128,6.2,120.0,3,1,android,64,10,1,1024,1.44e+03,3.2e+03,41999.0
+xiaomi,Redmi K60E,83,True,True,True,dimensity,8,3.1,5500,67.0,8,128,6.67,120.0,3,1,android,48,20,0,736,1.44e+03,3.2e+03,25999.0
+motorola,Moto E32s,67,False,False,False,helio,8,1.8,5000,18.0,3,32,6.5,90.0,3,1,android,16,8,1,1024,720.0,1.6e+03,7990.0
+oneplus,Nord 3T,84,True,True,False,dimensity,8,3.0,4500,80.0,8,128,6.43,90.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,29990.0
+oppo,F23 Pro Plus,83,True,False,False,snapdragon,8,2.36,4500,65.0,8,128,6.43,90.0,4,1,android,50,16,1,256,1.08e+03,2.46e+03,27990.0
+poco,F5 Pro,84,True,True,True,snapdragon,8,3.2,5500,67.0,8,128,6.67,120.0,3,1,android,64,16,0,736,1.44e+03,3.2e+03,29999.0
+poco,M4 Pro 4G,81,False,False,True,helio,8,2.05,5000,33.0,8,128,6.43,90.0,3,1,android,64,16,1,1024,1.08e+03,2.4e+03,13999.0
+realme,Narzo 50A,71,False,False,False,helio,8,2.0,6000,18.0,4,64,6.5,60.0,3,1,android,50,8,1,256,720.0,1.6e+03,11499.0
+asus,ROG Phone 5s,87,True,True,False,snapdragon,8,2.9,6000,65.0,8,128,6.78,144.0,3,1,android,64,24,0,736,1.08e+03,2.448e+03,39999.0
+realme,GT Master Edition,84,True,True,False,snapdragon,8,2.4,4300,65.0,8,128,6.43,120.0,3,1,android,64,32,0,736,1.08e+03,2.4e+03,27999.0
+samsung,Galaxy A32,79,True,True,False,dimensity,8,2.0,5000,15.0,6,128,6.5,90.0,4,1,android,48,13,1,1024,720.0,1.6e+03,24499.0
+nubia,Red Magic 8 Pro Plus,86,True,True,False,snapdragon,8,3.2,5000,165.0,12,256,6.8,120.0,3,1,android,50,16,0,736,1.116e+03,2.48e+03,60999.0
+xiaomi,Redmi Note 9 Pro Max,80,False,False,True,snapdragon,8,2.3,5020,33.0,6,64,6.67,60.0,4,1,android,64,32,1,512,1.08e+03,2.4e+03,16490.0
+samsung,Galaxy A52,83,False,False,False,snapdragon,8,2.3,4500,25.0,6,128,6.5,90.0,4,1,android,64,32,1,1024,1.08e+03,2.4e+03,24990.0
+oppo,Reno 8T 4G,83,False,True,False,helio,8,2.2,5000,66.0,8,256,6.67,120.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,19999.0
+oppo,Reno 10,84,True,True,False,snapdragon,8,2.5,5000,120.0,8,256,6.73,120.0,3,1,android,50,32,0,736,1.08e+03,2.412e+03,32999.0
+nokia,G60,81,True,True,False,snapdragon,8,2.2,4500,20.0,6,128,6.58,120.0,3,1,android,50,8,1,736,1.08e+03,2.4e+03,28498.0
+oppo,A77,71,False,False,False,helio,8,2.3,5000,33.0,4,128,6.56,60.0,2,1,android,50,8,1,736,720.0,1.6e+03,15998.0
+motorola,Edge 40 Pro,89,True,True,False,snapdragon,8,3.2,4800,125.0,8,128,6.7,165.0,3,1,android,50,60,0,736,1.08e+03,2.46e+03,59990.0
+oppo,K10x,78,True,False,False,snapdragon,8,2.2,5000,67.0,6,128,6.59,120.0,3,1,android,64,16,0,736,1.08e+03,2.412e+03,16990.0
+iqoo,Z6 Pro,82,True,False,False,snapdragon,8,2.4,4700,66.0,12,256,6.44,90.0,3,1,android,64,16,0,736,1.08e+03,2.404e+03,27999.0
+nokia,G21,75,False,False,False,unisoc,8,1.6,5050,18.0,6,128,6.5,90.0,3,1,android,50,8,1,512,720.0,1.6e+03,13499.0
+xiaomi,Redmi 10C,71,False,False,False,snapdragon,8,2.4,6000,18.0,4,64,6.7,60.0,2,1,android,50,5,1,512,720.0,1.6e+03,13990.0
+tecno,Spark 9 Pro,74,False,False,False,helio,8,2.0,5000,18.0,4,64,6.6,90.0,3,1,android,48,32,1,736,1.08e+03,2.46e+03,9999.0
+realme,GT Neo 3,83,True,True,False,dimensity,8,2.85,5000,80.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,31994.0
+xiaomi,11i HyperCharge,83,True,False,True,dimensity,8,2.5,4500,120.0,6,128,6.67,120.0,3,1,android,108,16,1,1024,2.4e+03,1.08e+03,24820.0
+iqoo,Neo 6 SE,83,True,False,False,snapdragon,8,3.2,4700,80.0,8,128,6.62,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,22990.0
+iqoo,9 Pro,88,True,True,False,snapdragon,8,3.0,4700,120.0,8,256,6.78,120.0,3,1,android,50,16,0,736,1.44e+03,3.2e+03,59990.0
+xiaomi,Redmi Note 8 2021,75,False,False,True,helio,8,2.0,4000,18.0,4,64,6.3,60.0,4,1,android,48,13,1,736,1.08e+03,2.34e+03,9990.0
+xiaomi,Redmi Note 10,76,True,False,True,dimensity,8,2.2,5000,18.0,4,128,6.5,90.0,3,1,android,48,8,1,512,1.08e+03,2.4e+03,12490.0
+vivo,Y20G,69,False,False,False,helio,8,2.0,5000,18.0,4,64,6.51,60.0,3,1,android,13,8,1,256,720.0,1.6e+03,13990.0
+samsung,Galaxy A22,79,True,False,False,dimensity,8,2.2,5000,15.0,6,128,6.6,90.0,3,1,android,48,8,1,1024,1.08e+03,2.408e+03,17990.0
+vivo,V21,83,False,False,False,dimensity,8,2.4,4000,33.0,8,128,6.44,90.0,3,1,android,64,44,1,736,1.08e+03,2.4e+03,24999.0
+realme,7 Pro,85,False,False,False,snapdragon,8,2.3,4500,65.0,8,128,6.4,60.0,4,1,android,64,32,1,256,1.08e+03,2.4e+03,21999.0
+oneplus,Nord Lite,77,False,False,False,snapdragon,8,2.0,4300,30.0,8,128,6.55,90.0,3,1,android,48,16,0,736,1.08e+03,2.4e+03,19999.0
+sony,Xperia Ace IV,80,False,True,False,snapdragon,8,2.0,5000,33.0,8,128,6.5,120.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,19990.0
+xiaomi,Redmi Note 12 4G,75,False,False,True,helio,8,2.2,5000,33.0,4,64,6.67,120.0,3,1,android,48,13,1,1024,1.08e+03,2.4e+03,13999.0
+vivo,V28,84,True,False,False,snapdragon,8,2.2,5000,80.0,8,256,6.7,120.0,3,1,android,108,32,1,736,1.08e+03,2.4e+03,28990.0
+poco,F4,85,True,True,False,snapdragon,8,3.2,4500,67.0,8,128,6.67,120.0,3,1,android,64,20,0,736,1.08e+03,2.4e+03,27999.0
+xiaomi,Redmi Note 11T Pro,82,True,True,True,dimensity,8,2.85,5080,67.0,6,128,6.6,144.0,3,1,android,64,16,1,1024,1.08e+03,2.46e+03,19990.0
+realme,Narzo 50 Pro,83,True,False,False,dimensity,8,2.5,5000,33.0,8,128,6.4,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,22999.0
+vivo,T1 44W,82,False,False,False,snapdragon,8,2.4,5000,44.0,8,128,6.44,60.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,17999.0
+xiaomi,Redmi Note 11S,81,False,False,True,helio,8,2.05,5000,33.0,6,128,6.43,90.0,4,1,android,108,16,1,512,1.08e+03,2.4e+03,15499.0
+lava,Agni,84,True,False,False,dimensity,8,2.4,5000,30.0,8,128,6.78,90.0,4,1,android,64,16,1,1024,1.08e+03,2.46e+03,17990.0
+realme,8i,77,False,False,False,helio,8,2.05,5000,18.0,6,128,6.6,120.0,3,1,android,50,16,1,256,1.08e+03,2.412e+03,13999.0
+oppo,A55 4G,73,False,False,False,helio,8,2.3,5000,18.0,4,64,6.51,60.0,3,1,android,50,16,1,256,720.0,1.6e+03,13499.0
+poco,M3 Pro,79,True,False,True,dimensity,8,2.2,5000,18.0,6,128,6.5,90.0,3,1,android,48,8,1,1024,1.08e+03,2.4e+03,14799.0
+vivo,V21,85,True,False,False,dimensity,8,2.4,4000,33.0,8,128,6.44,90.0,3,1,android,64,44,1,736,1.08e+03,2.4e+03,23994.0
+motorola,Edge Plus,89,True,True,False,snapdragon,8,2.84,5000,18.0,12,256,6.7,90.0,3,1,android,108,25,0,736,1.08e+03,2.34e+03,57999.0
+samsung,Galaxy A12,71,False,False,False,helio,8,2.3,5000,15.0,4,64,6.5,60.0,4,1,android,48,8,1,736,720.0,1.56e+03,11999.0
+xiaomi,Redmi Note 12 Pro 4G,77,False,True,True,snapdragon,8,2.3,5000,67.0,6,128,6.67,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,14999.0
+realme,GT Neo 3T,81,True,False,False,snapdragon,8,3.2,5000,80.0,8,128,6.62,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,26499.0
+realme,C30s,67,False,False,False,unisoc,8,1.6,5000,10.0,4,64,6.5,60.0,1,1,android,8,5,1,1024,720.0,1.6e+03,8990.0
+iqoo,9T,85,True,True,True,snapdragon,8,3.2,4700,120.0,8,128,6.78,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,47990.0
+tecno,Camon 19 Pro,81,False,False,False,helio,8,2.05,5000,33.0,8,128,6.8,120.0,3,1,android,64,32,0,736,1.08e+03,2.46e+03,17990.0
+oneplus,Nord 2 Lite,83,True,True,False,snapdragon,8,2.2,5000,33.0,8,128,6.59,120.0,3,1,android,64,16,1,736,1.08e+03,2.412e+03,22999.0
+poco,F4 GT,86,True,True,True,snapdragon,8,3.0,4700,120.0,8,128,6.67,120.0,3,1,android,64,20,0,736,1.08e+03,2.4e+03,39999.0
+xiaomi,11T Pro,88,True,True,True,snapdragon,8,2.84,5000,120.0,12,256,6.67,120.0,3,1,android,108,16,0,736,1.08e+03,2.4e+03,38999.0
+samsung,Galaxy A83,86,True,True,False,snapdragon,8,3.2,4500,25.0,6,128,6.71,120.0,3,1,android,64,10,1,1024,1.44e+03,3.2e+03,39990.0
+vivo,Y33s,80,False,False,False,helio,8,2.0,5000,18.0,8,128,6.58,60.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,16685.0
+realme,X7 Max,84,True,True,False,dimensity,8,3.0,4500,50.0,8,128,6.43,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,26999.0
+realme,8,75,True,False,False,dimensity,8,2.2,5000,18.0,4,128,6.5,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,16499.0
+apple,iPhone SE 2020,67,False,True,False,bionic,6,2.65,1821,18.0,3,64,4.7,60.0,1,1,ios,12,7,0,736,750.0,1.334e+03,39900.0
+letv,Y1 Pro Plus,67,False,False,False,tiger,4,1.8,4000,10.0,6,64,6.5,60.0,2,1,android,8,5,0,736,720.0,1.56e+03,5999.0
+vivo,Y73T,77,True,False,False,dimensity,8,2.0,6000,44.0,8,128,6.58,60.0,2,1,android,50,8,0,736,1.08e+03,2.408e+03,16990.0
+oppo,Reno 9 Z,84,True,True,False,snapdragon,8,2.2,4800,33.0,8,128,6.58,120.0,3,1,android,50,32,1,736,1.08e+03,2.4e+03,22990.0
+vivo,V25e,84,False,False,False,helio,8,2.2,4500,44.0,8,256,6.44,90.0,3,1,android,64,32,1,736,1.08e+03,2.4e+03,19990.0
+infinix,Hot 12 Pro,74,False,False,False,tiger,8,2.0,5000,18.0,6,64,6.6,90.0,2,1,android,50,8,1,256,720.0,1.612e+03,10850.0
+realme,Narzo 50,75,True,False,False,dimensity,8,2.4,5000,33.0,4,64,6.6,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,13499.0
+itel,Vision 3,67,False,False,False,unisoc,8,1.6,5000,18.0,3,64,6.6,60.0,2,1,android,8,5,1,128,1.612e+03,720.0,6699.0
+oppo,A96 4G,80,False,False,False,snapdragon,8,2.4,5000,33.0,8,128,6.59,90.0,2,1,android,50,16,1,736,1.08e+03,2.412e+03,17999.0
+xiaomi,Redmi Note 11E,69,True,False,True,dimensity,8,2.2,5000,18.0,4,128,6.58,90.0,2,1,android,50,5,0,736,1.08e+03,2.408e+03,13990.0
+tecno,Spark 9T,72,False,False,False,helio,8,2.3,5000,18.0,4,64,6.6,60.0,3,1,android,50,8,1,736,1.08e+03,2.408e+03,8968.0
+realme,C25Y,69,False,False,False,tiger,8,1.8,5000,18.0,4,64,6.5,60.0,3,1,android,50,8,1,256,1.6e+03,720.0,8999.0
+samsung,Galaxy A12,75,False,False,False,helio,8,2.3,5000,15.0,6,128,6.5,60.0,4,1,android,48,8,1,736,720.0,1.56e+03,13999.0
+tecno,Camon 19,79,False,True,False,helio,8,2.0,5000,18.0,6,128,6.8,60.0,3,1,android,64,16,1,512,1.08e+03,2.46e+03,14746.0
+xiaomi,Redmi Note 10 Pro,83,True,True,True,dimensity,8,2.6,5000,67.0,6,128,6.6,120.0,3,1,android,64,16,1,736,1.08e+03,2.4e+03,16999.0
+xiaomi,Mi 11X,83,True,False,True,snapdragon,8,3.2,4520,33.0,8,128,6.67,120.0,3,1,android,48,20,0,736,1.08e+03,2.4e+03,25990.0
+xiaomi,Redmi Note 10,78,False,False,True,snapdragon,8,2.2,5000,33.0,6,128,6.43,60.0,4,1,android,48,13,1,512,1.08e+03,2.4e+03,16499.0
+xiaomi,Redmi Note 10 Pro Max,81,False,False,True,snapdragon,8,2.3,5020,33.0,6,64,6.67,120.0,4,1,android,108,16,1,512,1.08e+03,2.4e+03,19999.0
+xiaomi,Mi 10T,80,True,True,False,snapdragon,8,2.84,5000,33.0,6,128,6.67,144.0,3,1,android,64,20,0,736,2.4e+03,1.08e+03,23500.0
+lg,Velvet,85,True,True,False,snapdragon,8,2.4,4300,25.0,6,128,6.8,60.0,3,1,android,48,16,1,736,1.08e+03,2.46e+03,54999.0
+motorola,One Fusion Plus,80,False,False,False,snapdragon,8,2.2,5000,18.0,6,128,6.5,60.0,4,1,android,64,16,1,1024,1.08e+03,2.34e+03,19499.0
+samsung,Galaxy Note 10 Lite,83,False,True,False,exynos,8,2.7,4500,25.0,6,128,6.7,60.0,3,1,android,12,32,1,1024,1.08e+03,2.4e+03,39999.0
+iqoo,Neo 7 Racing Edition,84,True,True,True,snapdragon,8,3.2,5000,120.0,8,256,6.78,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,32990.0
+samsung,Galaxy A04s,72,False,False,False,exynos,8,2.0,5000,15.0,4,128,6.5,90.0,3,1,android,50,5,1,1024,720.0,1.6e+03,14499.0
+vivo,Y35,70,True,False,False,dimensity,8,2.2,5000,15.0,4,128,6.51,60.0,2,1,android,13,5,1,1024,720.0,1.6e+03,13999.0
+itel,Vision 3,78,False,False,False,unisoc,8,1.6,5000,18.0,2,32,6.6,60.0,2,1,android,8,5,1,128,1.612e+03,720.0,5785.0
+xiaomi,Redmi Note 11R,73,True,False,True,dimensity,8,2.2,5000,18.0,4,128,6.58,90.0,2,1,android,13,5,1,512,1.08e+03,2.4e+03,12990.0
+poco,M6 Pro,84,True,False,True,dimensity,8,2.5,5100,120.0,8,128,6.73,120.0,3,1,android,108,32,1,1024,1.08e+03,2.4e+03,19990.0
+oppo,A97,79,True,False,False,dimensity,8,2.4,5000,33.0,12,256,6.56,90.0,2,1,android,48,8,1,1024,1.08e+03,2.4e+03,23990.0
+samsung,Galaxy A24,77,False,False,False,exynos,8,1.8,4000,15.0,6,64,6.4,60.0,3,1,android,48,16,1,1024,1.08e+03,2.408e+03,17999.0
+infinix,Note 13 Pro,80,False,False,False,helio,8,2.2,5000,120.0,6,128,6.91,60.0,4,1,android,108,16,1,256,1.08e+03,2.46e+03,16999.0
+nubia,Z40 Pro,84,True,True,False,snapdragon,8,3.0,5000,80.0,8,128,6.67,144.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,49990.0
+nokia,G21,71,False,False,False,unisoc,8,1.6,5050,18.0,4,64,6.5,90.0,3,1,android,50,8,1,512,720.0,1.6e+03,11999.0
+xiaomi,12 Lite,82,True,True,False,snapdragon,8,2.4,4300,67.0,6,128,6.55,120.0,3,1,android,108,32,0,736,1.08e+03,2.4e+03,29990.0
+vivo,Y21s,74,False,False,False,helio,8,2.0,5000,18.0,4,128,6.51,60.0,3,1,android,50,8,1,1024,720.0,1.6e+03,14990.0
+oppo,F19s,79,False,False,False,snapdragon,8,2.0,5000,33.0,6,128,6.43,60.0,3,1,android,48,16,1,256,1.08e+03,2.4e+03,15988.0
+samsung,Galaxy M21 2021,76,False,False,False,exynos,8,2.3,6000,15.0,4,64,6.4,60.0,3,1,android,48,20,1,512,1.08e+03,2.34e+03,11725.0
+oppo,F19 Pro,80,False,False,False,helio,8,2.2,4310,30.0,8,128,6.43,60.0,4,1,android,48,16,1,256,1.08e+03,2.4e+03,17994.0
+oneplus,Nord N10,81,True,True,False,snapdragon,8,2.0,4300,30.0,6,128,6.49,90.0,4,1,android,64,16,1,512,1.08e+03,2.4e+03,25595.0
+poco,M2,74,False,False,True,helio,8,2.0,5000,18.0,6,64,6.53,60.0,4,1,android,13,8,1,512,1.08e+03,2.34e+03,10890.0
+oppo,F17 Pro,83,False,False,False,helio,8,2.2,4015,30.0,8,128,6.43,60.0,4,2,android,48,16,1,256,1.08e+03,2.4e+03,18990.0
+motorola,Moto G,82,True,True,False,snapdragon,8,2.2,5000,20.0,6,128,6.67,60.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,19990.0
+samsung,Galaxy A50s,80,False,True,False,exynos,8,2.3,4000,15.0,4,128,6.4,60.0,3,1,android,48,32,1,512,1.08e+03,2.34e+03,15990.0
+samsung,Galaxy Note 10 Plus,89,False,True,False,exynos,8,2.73,4300,45.0,12,256,6.8,60.0,4,1,android,12,10,1,1024,1.44e+03,3.04e+03,58999.0
+vivo,S1 Pro,82,False,False,False,snapdragon,8,2.0,4500,18.0,8,128,6.38,60.0,4,1,android,48,32,1,256,1.08e+03,2.34e+03,29999.0
+vivo,T3 Pro,86,True,False,False,snapdragon,8,2.7,4700,80.0,8,256,6.67,120.0,3,1,android,64,32,1,1024,1.08e+03,2.408e+03,31990.0
+vivo,V21s,86,True,True,False,dimensity,8,2.4,4000,33.0,8,128,6.44,90.0,3,1,android,64,44,1,736,1.08e+03,2.4e+03,29999.0
+motorola,Moto Edge 30 Neo,84,True,True,False,snapdragon,8,2.2,4020,68.0,8,128,6.28,120.0,2,1,android,64,32,0,736,1.08e+03,2.4e+03,31990.0
+xiaomi,12T,87,True,True,True,dimensity,8,2.85,5000,120.0,8,128,6.67,120.0,3,1,android,108,20,0,736,1.22e+03,2.712e+03,48990.0
+iqoo,Z7 Pro,80,True,False,False,snapdragon,8,2.36,5000,67.0,6,128,6.62,144.0,3,1,android,50,16,1,1024,1.08e+03,2.412e+03,24999.0
+infinix,Note 11S,79,False,False,False,helio,8,2.05,5000,33.0,8,128,6.95,120.0,3,1,android,50,16,1,2048,1.08e+03,2.46e+03,15999.0
+xiaomi,Redmi 10 Prime,77,False,False,True,helio,8,2.0,6000,18.0,6,128,6.5,90.0,4,1,android,50,8,1,512,1.08e+03,2.4e+03,12999.0
+huawei,Nova 9,83,False,True,False,snapdragon,8,2.4,4300,66.0,8,128,6.57,120.0,4,1,other,50,32,0,736,1.08e+03,2.34e+03,29990.0
+huawei,P50 Pro 4G,78,False,True,True,snapdragon,8,2.84,4360,66.0,8,256,6.6,120.0,4,1,other,50,13,1,256,1.288e+03,2.7e+03,60999.0
+xiaomi,Redmi K50,83,True,True,True,dimensity,8,2.85,5500,67.0,8,128,6.67,120.0,3,1,android,48,20,0,736,1.44e+03,3.2e+03,27990.0
+realme,Q3,80,True,False,False,snapdragon,8,2.2,5000,30.0,6,128,6.5,120.0,3,1,android,48,16,1,736,1.08e+03,2.4e+03,14999.0
+oppo,Reno 6 Pro Plus,87,True,True,False,snapdragon,8,3.2,4500,65.0,8,128,6.55,90.0,4,1,android,50,32,0,736,1.08e+03,2.4e+03,44990.0
+motorola,Edge S,87,True,True,False,snapdragon,8,3.2,5000,20.0,6,128,6.7,90.0,4,2,android,64,16,1,736,1.08e+03,2.52e+03,22490.0
+oppo,Find X3 Pro,78,True,True,False,snapdragon,8,2.84,4500,65.0,12,256,6.7,120.0,4,1,android,50,32,0,736,1.44e+03,3.216e+03,50990.0
+poco,M3,75,False,False,True,snapdragon,8,2.0,6000,18.0,6,64,6.53,60.0,3,1,android,48,8,1,512,1.08e+03,2.34e+03,11499.0
+vivo,V20 Pro,84,True,False,False,snapdragon,8,2.4,4000,33.0,8,128,6.44,60.0,3,2,android,64,44,0,736,1.08e+03,2.4e+03,27000.0
+xiaomi,Mi 10T Pro,86,True,True,True,snapdragon,8,2.84,5000,33.0,8,128,6.67,144.0,3,1,android,108,20,0,736,1.08e+03,2.4e+03,29999.0
+vivo,V19,84,False,False,False,snapdragon,8,2.3,4500,33.0,8,256,6.44,60.0,4,2,android,48,32,1,512,1.08e+03,2.4e+03,27990.0
+vivo,U3,72,False,False,False,snapdragon,8,2.0,5000,18.0,4,64,6.53,60.0,3,1,android,16,16,1,256,1.08e+03,2.34e+03,9990.0
+oppo,K5,82,False,False,False,snapdragon,8,2.2,4000,30.0,8,128,6.4,60.0,4,1,android,64,32,1,256,1.08e+03,2.34e+03,19990.0
+realme,XT,75,False,False,False,snapdragon,8,2.3,4000,20.0,4,64,6.4,60.0,4,1,android,64,16,1,256,1.08e+03,2.34e+03,13279.0
+poco,C50,67,False,False,False,helio,4,2.0,5000,10.0,3,32,6.52,60.0,2,1,android,8,5,1,512,720.0,1.6e+03,7299.0
+xiaomi,Redmi K60 Gaming Edition,86,True,True,True,snapdragon,8,3.2,5000,67.0,8,128,6.73,120.0,3,1,android,50,20,0,736,1.44e+03,3.2e+03,54990.0
+honor,80 Pro Plus,78,True,True,False,snapdragon,8,3.0,4500,100.0,12,256,6.78,120.0,3,1,android,200,50,0,736,1.2e+03,2.652e+03,54990.0
+tecno,Pova Neo,71,False,False,False,dimensity,8,2.4,6000,18.0,4,128,6.8,120.0,2,1,android,50,8,1,1024,1.08e+03,2.4e+03,15499.0
+vivo,T2x,80,True,False,False,dimensity,8,3.0,6000,44.0,8,128,6.58,120.0,2,1,android,50,16,0,736,1.08e+03,2.408e+03,18990.0
+motorola,Moto G52,76,True,True,False,snapdragon,8,2.2,5000,33.0,4,64,6.6,90.0,3,1,android,50,16,1,736,2.46e+03,1.08e+03,16999.0
+motorola,Edge 40,86,True,True,False,snapdragon,8,2.36,4200,67.0,8,128,6.5,144.0,3,1,android,50,32,0,736,1.08e+03,2.412e+03,34999.0
+realme,GT 2 Pro,89,True,True,False,snapdragon,8,3.0,5000,65.0,12,256,6.7,120.0,3,1,android,50,32,0,736,1.44e+03,3.216e+03,46999.0
+honor,X8,76,False,False,False,snapdragon,8,2.4,4000,22.0,6,128,6.7,90.0,4,1,android,64,16,0,736,1.08e+03,2.388e+03,16999.0
+samsung,Galaxy A03,69,False,False,False,unisoc,8,1.6,5000,15.0,4,64,6.5,60.0,2,1,android,48,5,1,1024,720.0,1.56e+03,11499.0
+vivo,Y33T,81,False,False,False,snapdragon,8,2.4,5000,18.0,8,128,6.58,90.0,3,1,android,50,16,1,1024,1.08e+03,2.408e+03,15990.0
+xiaomi,11i,83,True,False,True,dimensity,8,2.5,5160,67.0,8,128,6.67,120.0,3,1,android,108,16,1,1024,2.4e+03,1.08e+03,24990.0
+vivo,Y21e,69,False,False,False,snapdragon,8,2.4,5000,18.0,3,64,6.51,60.0,2,1,android,13,8,1,1024,720.0,1.6e+03,12499.0
+vivo,V23e,82,False,False,False,helio,8,2.05,4050,44.0,8,128,6.44,60.0,3,1,android,64,50,0,736,1.08e+03,2.4e+03,26990.0
+samsung,Galaxy A03s,67,False,False,False,helio,8,2.3,5000,15.0,3,32,6.5,60.0,3,1,android,13,5,1,1024,720.0,1.6e+03,8499.0
+xiaomi,Redmi 20X,77,True,False,True,dimensity,8,2.2,5000,18.0,4,128,6.43,90.0,4,1,android,48,13,1,736,1.08e+03,2.34e+03,10990.0
+realme,Narzo 30,80,True,True,False,dimensity,8,2.2,5000,18.0,6,128,6.5,90.0,3,1,android,48,16,1,1024,1.08e+03,2.4e+03,16999.0
+xiaomi,Redmi 9 Power,74,False,False,True,snapdragon,8,2.0,6000,18.0,4,64,6.53,60.0,4,1,android,48,8,1,512,1.08e+03,2.34e+03,11499.0
+samsung,Galaxy S21 Plus,88,True,True,False,exynos,8,2.9,4800,25.0,8,128,6.7,120.0,3,1,android,64,10,0,736,1.08e+03,2.4e+03,59450.0
+poco,M2 Pro,76,False,False,True,snapdragon,8,2.3,5000,33.0,4,64,6.67,60.0,4,1,android,48,16,1,512,1.08e+03,2.4e+03,12799.0
+realme,6 Pro,80,False,False,False,snapdragon,8,2.3,4300,30.0,6,64,6.6,90.0,4,2,android,64,16,1,256,1.08e+03,2.4e+03,14490.0
+realme,GT Neo 4T,80,True,False,False,snapdragon,8,3.0,5000,120.0,8,128,6.73,144.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,29999.0
+vivo,Y53t,67,True,False,False,dimensity,8,2.0,6000,15.0,4,128,6.51,60.0,2,1,android,13,5,0,736,720.0,1.6e+03,11999.0
+xiaomi,Redmi K60i,85,True,False,True,dimensity,8,3.1,5080,120.0,8,128,6.67,120.0,3,1,android,50,32,0,736,1.08e+03,2.46e+03,28999.0
+infinix,Hot 20S,77,False,False,False,helio,8,2.05,5000,18.0,8,128,6.78,60.0,2,1,android,50,8,1,736,1.08e+03,2.46e+03,12999.0
+realme,GT Neo 3T,82,True,False,False,snapdragon,8,3.2,5000,80.0,8,256,6.62,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,28499.0
+xiaomi,Redmi 13 Prime,79,True,False,True,snapdragon,8,2.0,5100,18.0,6,128,6.73,120.0,2,1,android,64,16,1,1024,1.08e+03,2.408e+03,17990.0
+xiaomi,Redmi 11 Prime,76,False,False,True,helio,8,2.2,5000,18.0,6,128,6.58,90.0,3,1,android,50,8,1,512,1.08e+03,2.4e+03,13774.0
+oneplus,Nord N300,75,True,True,False,dimensity,8,2.4,5000,33.0,4,64,6.56,90.0,2,1,android,48,16,1,736,720.0,1.612e+03,18990.0
+tecno,Camon 19 Neo,77,False,True,False,helio,8,2.0,5000,18.0,6,128,6.8,90.0,3,1,android,48,32,0,736,1.08e+03,2.4e+03,14999.0
+realme,Narzo 50i Prime,67,False,False,False,tiger,8,1.82,5000,10.0,3,32,6.5,60.0,1,1,android,8,5,1,1024,720.0,1.6e+03,7999.0
+xiaomi,Redmi K50 Ultra,85,True,True,True,snapdragon,8,3.2,5000,120.0,8,128,6.67,144.0,3,1,android,108,20,0,736,1.22e+03,2.712e+03,39999.0
+oppo,A57 4G,67,False,False,False,helio,8,2.3,5000,33.0,3,64,6.56,60.0,2,1,android,13,8,1,736,720.0,1.612e+03,11990.0
+infinix,Note 12,77,False,False,False,helio,8,2.0,5000,33.0,6,128,6.7,60.0,3,1,android,50,16,1,512,2.4e+03,1.08e+03,12999.0
+vivo,X80,88,True,False,False,dimensity,8,3.05,4500,80.0,12,256,6.78,120.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,59999.0
+infinix,Note 12 (G96),79,False,False,False,helio,8,2.05,5000,33.0,8,128,6.7,60.0,3,1,android,50,16,1,736,1.08e+03,2.4e+03,16999.0
+xiaomi,Redmi 10 Prime Plus,69,True,False,True,dimensity,8,2.2,5000,18.0,4,128,6.58,90.0,2,1,android,50,5,0,736,1.08e+03,2.408e+03,13990.0
+xiaomi,Redmi Note 11 Pro 4G,81,False,False,True,helio,8,2.05,5000,67.0,6,128,6.67,120.0,4,1,android,108,16,1,1024,1.08e+03,2.4e+03,17999.0
+realme,Narzo 50A Prime,73,False,False,False,tiger,8,1.82,5000,18.0,4,64,6.6,60.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,11399.0
+vivo,Y55s,79,True,False,False,dimensity,8,2.2,6000,18.0,8,128,6.58,60.0,2,1,android,50,8,0,736,1.08e+03,2.408e+03,19990.0
+vivo,Y21T,74,False,False,False,snapdragon,8,2.4,5000,18.0,4,128,6.51,90.0,3,1,android,50,8,1,1024,1.6e+03,720.0,15499.0
+xiaomi,Redmi Note 10 Lite,77,False,False,True,snapdragon,8,2.3,5020,18.0,4,128,6.67,60.0,4,1,android,48,16,1,512,1.08e+03,2.4e+03,12499.0
+realme,GT Explorer Master Edition,85,True,True,False,snapdragon,8,3.2,4500,65.0,8,128,6.55,120.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,32990.0
+xiaomi,Mi 12,87,True,True,True,snapdragon,8,3.0,4500,67.0,8,128,6.28,120.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,42990.0
+xiaomi,Mi 11 Lite,82,False,False,True,snapdragon,8,2.3,4250,33.0,8,128,6.55,90.0,3,1,android,64,16,1,512,1.08e+03,2.4e+03,18699.0
+realme,Q3i,76,True,False,False,dimensity,8,2.2,5000,18.0,4,128,6.5,60.0,3,1,android,48,16,1,736,1.08e+03,2.4e+03,10990.0
+xiaomi,Mi 11X Pro,85,True,False,True,snapdragon,8,2.84,4520,33.0,8,128,6.67,120.0,3,1,android,108,20,0,736,1.08e+03,2.4e+03,30990.0
+lenovo,Legion Pro 2,89,True,True,False,snapdragon,8,2.84,5000,120.0,16,512,6.5,144.0,2,1,android,64,20,0,736,1.08e+03,2.4e+03,59999.0
+realme,Q2i,69,True,False,False,dimensity,8,2.0,5000,18.0,4,128,6.5,60.0,3,1,android,13,8,0,736,720.0,1.6e+03,9999.0
+xiaomi,Redmi 9i,67,False,False,False,helio,8,2.0,5000,10.0,4,128,6.53,60.0,1,1,android,13,5,1,512,720.0,1.6e+03,9299.0
+realme,6,77,False,False,False,helio,8,2.05,4300,30.0,6,64,6.5,90.0,4,1,android,64,16,1,256,1.08e+03,2.4e+03,12989.0
+oppo,Reno 5,83,True,False,False,snapdragon,8,2.4,4300,65.0,8,128,6.43,60.0,4,1,android,64,32,0,736,1.08e+03,2.4e+03,29990.0
+sony,Xperia 10 II,75,False,True,False,snapdragon,8,2.0,3600,18.0,4,128,6.0,90.0,3,1,android,12,8,1,736,1.08e+03,2.52e+03,27999.0
+huawei,Nova 7i,81,False,False,False,kirin,8,2.2,4200,40.0,8,128,6.4,60.0,4,1,android,48,16,1,256,1.08e+03,2.34e+03,21990.0
+vivo,Y19,73,False,False,False,helio,8,2.0,5000,18.0,4,128,6.53,60.0,3,1,android,16,16,1,256,1.08e+03,2.34e+03,20000.0
+vivo,U3,74,False,False,False,snapdragon,8,2.0,5000,18.0,6,64,6.53,60.0,3,1,android,16,16,1,256,1.08e+03,2.34e+03,11990.0
+xiaomi,Redmi Note 9,75,False,False,True,helio,8,2.0,5020,22.0,4,64,6.53,60.0,4,1,android,48,13,1,512,1.08e+03,2.34e+03,11989.0
+xiaomi,Redmi 8,67,False,False,True,snapdragon,8,2.0,5000,18.0,4,64,6.22,60.0,2,1,android,12,8,1,512,720.0,1.52e+03,11490.0
+motorola,One Macro,68,False,False,False,helio,8,2.0,4000,10.0,4,64,6.2,60.0,3,1,android,13,8,1,512,720.0,1.52e+03,11490.0
+google,Pixel 3a XL,67,False,True,False,snapdragon,8,2.0,3700,18.0,4,64,6.0,60.0,1,1,android,12,8,0,736,1.08e+03,2.16e+03,15999.0
+samsung,Galaxy A40,69,False,False,False,exynos,8,2.2,3100,15.0,4,64,5.9,60.0,2,1,android,16,25,1,512,1.08e+03,2.34e+03,17990.0
+doogee,V Max,88,True,False,False,dimensity,8,2.6,22000,33.0,12,256,6.58,120.0,3,1,android,108,32,1,2048,1.08e+03,2.408e+03,45999.0
+vivo,V29,84,True,False,False,snapdragon,8,2.4,5000,80.0,8,256,6.67,120.0,3,1,android,64,32,1,736,1.08e+03,2.4e+03,32990.0
+poco,M5,77,False,False,True,helio,8,2.2,5000,18.0,6,128,6.58,90.0,3,1,android,50,8,1,512,1.08e+03,2.4e+03,14499.0
+nokia,X30,85,True,True,False,snapdragon,8,2.2,4200,33.0,6,128,6.43,90.0,2,1,android,50,16,1,1024,1.08e+03,2.4e+03,41990.0
+huawei,Nova 10,82,False,False,False,snapdragon,8,2.4,4000,66.0,8,128,6.67,120.0,3,1,other,50,60,0,736,1.08e+03,2.4e+03,29990.0
+huawei,Nova Y90,82,False,True,False,snapdragon,8,2.4,5000,40.0,8,128,6.7,90.0,4,1,other,50,8,1,736,1.08e+03,2.388e+03,22990.0
+infinix,Note 12 VIP,84,False,False,False,helio,8,2.05,4500,120.0,8,128,6.7,120.0,3,1,android,108,16,1,256,1.08e+03,2.4e+03,19999.0
+oneplus,Nord 4,83,True,True,False,snapdragon,8,2.36,4500,80.0,8,128,6.43,120.0,3,1,android,50,32,0,736,1.08e+03,2.412e+03,29999.0
+realme,Narzo 50A Prime,74,False,False,False,tiger,8,1.82,5000,18.0,4,128,6.6,60.0,3,1,android,50,8,1,1024,1.08e+03,2.408e+03,11879.0
+oneplus,Ace,84,True,True,False,dimensity,8,2.85,4500,150.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,28990.0
+iqoo,9,85,True,False,False,snapdragon,8,2.9,4350,120.0,12,256,6.56,120.0,3,1,android,48,16,0,736,1.08e+03,2.376e+03,39990.0
+xiaomi,Redmi Note 12T,78,True,False,True,dimensity,8,2.0,5000,33.0,6,64,6.52,90.0,3,1,android,64,16,1,512,1.08e+03,2.4e+03,15999.0
+oppo,A96,82,True,False,False,snapdragon,8,2.2,4500,33.0,8,256,6.43,60.0,2,1,android,48,16,1,736,1.08e+03,2.4e+03,22990.0
+tecno,Camon 18,75,False,True,False,helio,8,2.0,5000,18.0,4,128,6.8,90.0,3,1,android,48,16,0,736,1.08e+03,2.46e+03,11499.0
+tecno,Phantom X Pro,84,False,False,False,helio,8,2.05,5000,44.0,8,256,6.7,120.0,4,2,android,50,48,0,736,1.08e+03,2.4e+03,22999.0
+realme,GT Neo2,82,True,True,False,snapdragon,8,3.2,5000,65.0,8,128,6.62,120.0,3,1,android,64,16,0,736,2.4e+03,1.08e+03,31999.0
+sony,Xperia 10 III Lite,78,True,True,False,snapdragon,8,2.0,4500,30.0,6,64,6.0,60.0,3,1,android,12,8,1,736,1.08e+03,2.52e+03,30990.0
+tecno,Pova 2,74,False,False,False,helio,8,2.0,7000,18.0,4,64,6.95,60.0,4,1,android,48,8,1,256,1.08e+03,2.46e+03,10999.0
+poco,X4,79,True,False,False,dimensity,8,2.2,5000,67.0,6,128,6.67,120.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,14990.0
+motorola,Moto G40 Fusion,77,False,False,False,snapdragon,8,2.3,6000,20.0,4,64,6.78,120.0,3,1,android,64,16,1,256,1.08e+03,2.46e+03,14499.0
+oneplus,9T,86,True,True,False,snapdragon,8,2.84,4500,65.0,8,128,6.55,120.0,4,1,android,108,16,0,736,1.08e+03,2.4e+03,44999.0
+realme,8,83,False,False,False,helio,8,2.0,5000,30.0,8,128,6.4,60.0,4,1,android,64,16,1,256,1.08e+03,2.4e+03,17999.0
+realme,Narzo 30 Pro,83,True,False,False,dimensity,8,2.4,5000,30.0,8,128,6.5,120.0,3,1,android,48,16,1,256,1.08e+03,2.4e+03,19999.0
+oppo,Reno 5 Pro,84,True,False,False,dimensity,8,2.6,4350,65.0,8,128,6.53,90.0,4,1,android,64,32,0,736,1.08e+03,2.4e+03,38700.0
+oneplus,Nord SE,73,False,False,False,snapdragon,8,2.0,4500,65.0,4,64,6.3,60.0,4,1,android,48,13,1,256,1.08e+03,2.4e+03,19999.0
+samsung,Galaxy M12,72,False,False,False,exynos,8,2.0,6000,15.0,4,64,6.5,90.0,4,1,android,48,8,1,1024,720.0,1.6e+03,10999.0
+oneplus,Nord N100,68,False,False,False,snapdragon,8,1.8,5000,18.0,4,64,6.52,90.0,3,1,android,13,8,1,256,720.0,1.6e+03,16990.0
+xiaomi,Redmi Note 9 Pro,77,False,False,True,snapdragon,8,2.3,5020,18.0,4,128,6.67,60.0,4,1,android,48,16,1,512,1.08e+03,2.4e+03,14439.0
+realme,X50 Pro,85,True,True,False,snapdragon,8,2.84,4200,65.0,8,128,6.44,90.0,4,2,android,64,32,0,736,1.08e+03,2.4e+03,24999.0
+xiaomi,Redmi Note 8 Pro,78,False,False,True,helio,8,2.05,4500,18.0,6,64,6.53,60.0,4,1,android,64,20,1,512,1.08e+03,2.34e+03,16999.0
+vivo,Y55s 2023,78,True,True,False,dimensity,8,2.2,5000,18.0,4,128,6.58,60.0,3,1,android,50,8,1,736,1.08e+03,2.408e+03,21999.0
+tecno,Camon 20 Premier,79,True,True,False,dimensity,8,2.2,5000,33.0,6,128,6.83,120.0,3,1,android,50,16,0,736,1.08e+03,2.46e+03,20999.0
+oppo,Reno 8 House of Dragon Edition,84,True,True,False,dimensity,8,3.0,4500,80.0,8,128,6.43,90.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,32990.0
+motorola,Moto E22s,70,False,False,False,helio,8,2.3,5000,10.0,4,64,6.5,90.0,2,1,android,16,8,1,736,720.0,1.6e+03,9022.0
+xiaomi,Redmi A1 Plus,67,False,False,False,helio,4,2.0,5000,10.0,3,32,6.52,60.0,2,1,android,8,5,1,512,720.0,1.6e+03,8399.0
+zte,Axon 30S,82,True,True,False,snapdragon,8,3.2,4200,55.0,6,128,6.9,120.0,4,1,android,50,16,1,736,1.08e+03,2.46e+03,19999.0
+honor,X6,71,False,False,False,helio,8,2.0,5000,10.0,4,64,6.5,60.0,3,1,android,50,5,1,736,720.0,1.6e+03,13999.0
+xiaomi,Civi 2,85,True,True,True,snapdragon,8,2.4,4500,67.0,8,128,6.55,120.0,3,2,android,50,32,0,736,1.08e+03,2.4e+03,29999.0
+tcl,Ion X,67,False,False,False,helio,8,2.0,3000,10.0,3,32,6.0,60.0,1,1,android,13,5,1,736,720.0,1.44e+03,8990.0
+nothing,Phone 1 Lite,80,True,True,False,snapdragon,8,2.5,5000,33.0,6,128,6.55,120.0,2,1,android,50,16,0,736,1.08e+03,2.4e+03,24990.0
+motorola,Moto Edge X30 Pro,78,True,True,False,snapdragon,8,3.2,4450,125.0,8,128,6.67,144.0,3,1,android,200,60,0,736,1.08e+03,2.34e+03,59990.0
+oneplus,Ace Pro,86,True,True,False,snapdragon,8,3.2,4800,150.0,12,256,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,47990.0
+realme,GT 2 Explorer Master Edition,86,True,True,False,snapdragon,8,3.2,5000,100.0,8,128,6.7,120.0,3,1,android,50,16,0,736,1.08e+03,2.412e+03,40990.0
+infinix,Note 12 Turbo,79,False,False,False,helio,8,2.0,5000,33.0,8,128,6.7,60.0,3,1,android,50,16,1,512,2.4e+03,1.08e+03,14999.0
+poco,F5 GT,86,True,True,True,dimensity,8,3.0,4500,150.0,8,128,6.67,120.0,3,1,android,64,20,0,736,1.08e+03,2.412e+03,42999.0
+iqoo,Z8,78,True,False,False,snapdragon,8,2.2,5000,18.0,4,128,6.58,120.0,3,1,android,50,16,1,1024,1.08e+03,2.412e+03,14999.0
+vivo,Y55 4G,83,False,False,False,snapdragon,8,2.4,5000,44.0,8,128,6.44,120.0,3,1,android,50,16,1,1024,1.08e+03,2.4e+03,22990.0
+oppo,K10 Pro,81,True,False,False,snapdragon,8,2.84,5000,80.0,8,128,6.62,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,29990.0
+iqoo,Z7,80,True,False,False,snapdragon,8,2.2,4200,55.0,8,128,6.67,120.0,3,1,android,50,16,0,736,1.08e+03,2.4e+03,17999.0
+infinix,Note 11,77,False,False,False,helio,8,2.0,5000,33.0,6,128,6.7,60.0,3,1,android,50,16,1,736,1.08e+03,2.4e+03,12799.0
+xiaomi,11i HyperCharge,86,True,False,True,dimensity,8,2.5,4500,120.0,8,128,6.67,120.0,3,1,android,108,16,1,1024,2.4e+03,1.08e+03,26999.0
+samsung,Galaxy F42,82,True,False,False,dimensity,8,2.2,5000,15.0,8,128,6.6,90.0,3,1,android,64,8,1,1024,1.08e+03,2.408e+03,22999.0
+nubia,Red Magic 6S,84,True,True,False,snapdragon,8,2.9,5050,30.0,8,128,6.8,165.0,3,1,android,64,8,0,736,1.08e+03,2.4e+03,44999.0
+nokia,X60,87,True,False,False,snapdragon,8,3.2,6000,33.0,6,128,6.51,144.0,4,1,other,200,16,1,736,1.08e+03,2.4e+03,39990.0
+oppo,Reno 5A,80,True,False,False,snapdragon,8,2.4,4000,18.0,6,128,6.5,90.0,4,1,android,64,16,1,1024,1.08e+03,2.4e+03,22990.0
+poco,F3 GT,79,True,False,True,dimensity,8,3.0,5065,67.0,6,128,6.67,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,32999.0
+honor,50,85,True,True,False,snapdragon,8,2.4,4300,66.0,6,128,6.57,120.0,4,1,android,108,32,0,736,1.08e+03,2.34e+03,32990.0
+realme,8i,74,False,False,False,helio,8,2.05,5000,18.0,4,64,6.6,120.0,3,1,android,50,16,1,256,1.08e+03,2.412e+03,12499.0
+iqoo,7 Legend,84,True,True,False,snapdragon,8,2.84,4000,66.0,8,128,6.62,120.0,3,1,android,48,16,0,736,1.08e+03,2.4e+03,39990.0
+samsung,Galaxy A22,76,False,False,False,helio,8,2.0,5000,15.0,6,128,6.4,60.0,4,1,android,48,13,1,1024,720.0,1.6e+03,18499.0
+realme,GT,85,True,True,False,snapdragon,8,2.84,4500,65.0,8,128,6.43,120.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,30994.0
+google,Pixel 5A,78,True,True,False,snapdragon,8,2.4,4620,18.0,6,128,6.34,60.0,2,1,android,16,8,0,736,1.08e+03,2.4e+03,32999.0
+samsung,Galaxy F12,73,False,False,False,exynos,8,2.0,6000,15.0,4,64,6.5,90.0,4,1,android,48,8,1,512,720.0,1.6e+03,10499.0
+samsung,Galaxy F41,82,False,False,False,exynos,8,2.3,6000,15.0,6,128,6.4,60.0,3,1,android,64,32,1,512,1.08e+03,2.34e+03,19999.0
+vivo,V20 SE,82,False,False,False,snapdragon,8,2.0,4100,33.0,8,128,6.44,60.0,3,1,android,48,32,1,736,1.08e+03,2.4e+03,19000.0
+oppo,A53 2020,70,False,False,False,snapdragon,8,1.8,5000,18.0,6,128,6.5,90.0,3,1,android,13,16,1,256,1.6e+03,720.0,13990.0
+realme,Narzo 20,72,False,False,False,helio,8,2.0,6000,18.0,4,64,6.5,60.0,3,1,android,48,8,1,256,720.0,1.6e+03,10499.0
+xiaomi,Mi 10,88,True,True,True,snapdragon,8,2.84,4780,30.0,8,256,6.67,90.0,4,1,android,108,20,0,736,1.08e+03,2.34e+03,54999.0
+oneplus,Z,79,False,False,False,snapdragon,8,2.4,4300,30.0,8,128,6.55,90.0,3,1,android,64,16,0,736,1.08e+03,2.4e+03,24999.0
+blackview,BV5200 Pro,67,True,True,False,helio,8,2.3,5180,10.0,4,64,6.1,60.0,2,1,android,13,8,1,736,720.0,1.56e+03,8990.0
+honor,X7a,75,False,False,False,helio,8,2.3,5000,22.0,6,128,6.75,90.0,4,1,android,50,8,1,736,720.0,1.6e+03,13999.0
+oppo,A58x,72,True,False,False,dimensity,8,2.2,5000,10.0,6,128,6.56,90.0,2,1,android,13,8,1,1024,720.0,1.612e+03,13990.0
+doogee,S99,84,False,True,False,helio,8,2.05,6000,33.0,8,128,6.3,60.0,3,1,android,108,32,1,1024,1.08e+03,2.34e+03,14999.0
+motorola,Edge 40 Fusion,87,True,True,False,snapdragon,8,3.2,4500,68.0,8,128,6.67,144.0,3,1,android,50,32,0,736,1.08e+03,2.4e+03,42990.0
+xiaomi,14,89,True,True,True,snapdragon,8,3.2,5000,67.0,12,256,6.43,120.0,3,1,android,50,32,0,736,1.44e+03,3.2e+03,54999.0
+motorola,ThinkPhone,89,True,True,False,snapdragon,8,3.2,5000,68.0,8,128,6.6,144.0,3,2,android,50,32,0,736,1.08e+03,2.4e+03,49990.0
+xiaomi,Civi 3,86,True,True,True,dimensity,8,3.1,5000,80.0,8,256,6.7,120.0,3,2,android,64,32,0,736,1.08e+03,2.4e+03,32990.0
+realme,Narzo 50i Prime,67,False,False,False,tiger,8,1.82,5000,10.0,4,64,6.5,60.0,1,1,android,8,5,1,1024,720.0,1.6e+03,8720.0
+motorola,Moto Edge S30 Pro,83,True,False,False,snapdragon,8,3.0,5000,68.0,8,128,6.67,120.0,3,1,android,64,16,0,736,1.08e+03,2.46e+03,34990.0
+honor,X8,75,True,False,False,snapdragon,8,2.2,5000,22.0,6,128,6.5,60.0,3,1,android,48,8,1,1024,720.0,1.6e+03,14990.0
+poco,X4 GT,85,True,True,True,dimensity,8,2.85,5080,67.0,8,256,6.6,144.0,3,1,android,64,16,0,736,1.08e+03,2.46e+03,28990.0
