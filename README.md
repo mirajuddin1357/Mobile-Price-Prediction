@@ -360,7 +360,7 @@
 
 ---
 
-1. **Model Selection and Comparison**:
+8. **Model Selection and Comparison**:
 - Use **optuna** for hyperparameter tuning to optimize model performance, find best model and best parameters.
 - Compared the performance of different models to select the best one.
 
@@ -379,48 +379,26 @@
       </tr>
     </thead>
     <tbody>
-      <tr style="font-weight:bold; color:#8B0000;">
-        <td style="padding:10px;">1</td>
-        <td style="padding:10px;">Extra Trees Regressor</td>
-        <td style="padding:10px;">0.8860</td>
-        <td style="padding:10px;">2944</td>
-        <td style="padding:10px;">18460798</td>
-      </tr>
-      <tr>
-        <td style="padding:10px;">2</td>
-        <td style="padding:10px;">Bagging Regressor</td>
-        <td style="padding:10px;">0.8816</td>
-        <td style="padding:10px;">3033</td>
-        <td style="padding:10px;">19176969</td>
-      </tr>
-      <tr>
-        <td style="padding:10px;">3</td>
-        <td style="padding:10px;">Random Forest Regressor</td>
-        <td style="padding:10px;">0.8808</td>
-        <td style="padding:10px;">3040</td>
-        <td style="padding:10px;">19307148</td>
-      </tr>
-      <tr>
-        <td style="padding:10px;">4</td>
-        <td style="padding:10px;">Gradient Boosting Regressor</td>
-        <td style="padding:10px;">0.8756</td>
-        <td style="padding:10px;">3120</td>
-        <td style="padding:10px;">20151321</td>
-      </tr>
-      <tr>
-        <td style="padding:10px;">5</td>
-        <td style="padding:10px;">XGBoost Regressor</td>
-        <td style="padding:10px;">0.8890</td>
-        <td style="padding:10px;">2969</td>
-        <td style="padding:10px;">17979785</td>
-      </tr>
-      <tr>
-        <td style="padding:10px;">6</td>
-        <td style="padding:10px;">CatBoost Regressor</td>
-        <td style="padding:10px;">0.8708</td>
-        <td style="padding:10px;">2920</td>
-        <td style="padding:10px;">20931812</td>
-      </tr>
+      <tr style="font-weight:bold; color:#8B0000;"><td style="padding:10px;">1</td><td style="padding:10px;">XGBoost Regressor</td><td style="padding:10px;">0.8948</td><td style="padding:10px;">0.2233</td><td style="padding:10px;">0.1010</td></tr>
+      <tr><td style="padding:10px;">2</td><td style="padding:10px;">Extra Trees Regressor</td><td style="padding:10px;">0.8880</td><td style="padding:10px;">0.2249</td><td style="padding:10px;">0.1075</td></tr>
+      <tr><td style="padding:10px;">3</td><td style="padding:10px;">Random Forest Regressor</td><td style="padding:10px;">0.8830</td><td style="padding:10px;">0.2316</td><td style="padding:10px;">0.1123</td></tr>
+      <tr><td style="padding:10px;">4</td><td style="padding:10px;">Bagging Regressor</td><td style="padding:10px;">0.8815</td><td style="padding:10px;">0.2336</td><td style="padding:10px;">0.1138</td></tr>
+      <tr><td style="padding:10px;">5</td><td style="padding:10px;">LightGBM</td><td style="padding:10px;">0.8790</td><td style="padding:10px;">0.2386</td><td style="padding:10px;">0.1161</td></tr>
+      <tr><td style="padding:10px;">6</td><td style="padding:10px;">Gradient Boosting Regressor</td><td style="padding:10px;">0.8741</td><td style="padding:10px;">0.2413</td><td style="padding:10px;">0.1209</td></tr>
+      <tr><td style="padding:10px;">7</td><td style="padding:10px;">CatBoost Regressor</td><td style="padding:10px;">0.8659</td><td style="padding:10px;">0.2265</td><td style="padding:10px;">0.1287</td></tr>
+      <tr><td style="padding:10px;">8</td><td style="padding:10px;">Multi-Layer Perceptron (MLP)</td><td style="padding:10px;">0.8458</td><td style="padding:10px;">0.2630</td><td style="padding:10px;">0.1481</td></tr>
+      <tr><td style="padding:10px;">9</td><td style="padding:10px;">Stacking Regressor</td><td style="padding:10px;">0.8356</td><td style="padding:10px;">0.2825</td><td style="padding:10px;">0.1578</td></tr>
+      <tr><td style="padding:10px;">10</td><td style="padding:10px;">Kernel Ridge Regressor</td><td style="padding:10px;">0.8098</td><td style="padding:10px;">0.2947</td><td style="padding:10px;">0.1826</td></tr>
+      <tr><td style="padding:10px;">11</td><td style="padding:10px;">AdaBoost Regressor</td><td style="padding:10px;">0.7992</td><td style="padding:10px;">0.3738</td><td style="padding:10px;">0.1928</td></tr>
+      <tr><td style="padding:10px;">12</td><td style="padding:10px;">Ridge Regression</td><td style="padding:10px;">0.7404</td><td style="padding:10px;">0.3593</td><td style="padding:10px;">0.2492</td></tr>
+      <tr><td style="padding:10px;">13</td><td style="padding:10px;">Linear Regression</td><td style="padding:10px;">0.7385</td><td style="padding:10px;">0.3608</td><td style="padding:10px;">0.2510</td></tr>
+      <tr><td style="padding:10px;">14</td><td style="padding:10px;">Decision Tree Regression</td><td style="padding:10px;">0.7207</td><td style="padding:10px;">0.3368</td><td style="padding:10px;">0.2681</td></tr>
+      <tr><td style="padding:10px;">15</td><td style="padding:10px;">KNN Regression</td><td style="padding:10px;">0.6154</td><td style="padding:10px;">0.4222</td><td style="padding:10px;">0.3692</td></tr>
+      <tr><td style="padding:10px;">16</td><td style="padding:10px;">ElasticNet Regression</td><td style="padding:10px;">0.5748</td><td style="padding:10px;">0.4545</td><td style="padding:10px;">0.4082</td></tr>
+      <tr><td style="padding:10px;">17</td><td style="padding:10px;">Lasso Regression</td><td style="padding:10px;">0.5518</td><td style="padding:10px;">0.4720</td><td style="padding:10px;">0.4303</td></tr>
+      <tr><td style="padding:10px;">18</td><td style="padding:10px;">Huber Regression</td><td style="padding:10px;">0.5075</td><td style="padding:10px;">0.4633</td><td style="padding:10px;">0.4728</td></tr>
+      <tr><td style="padding:10px;">19</td><td style="padding:10px;">Voting Regressor</td><td style="padding:10px;">-282755.46</td><td style="padding:10px;">403.7793</td><td style="padding:10px;">271446.97</td></tr>
+      <tr><td style="padding:10px;">20</td><td style="padding:10px;">SVR (Linear Kernel)</td><td style="padding:10px;">-2545154.1</td><td style="padding:10px;">1211.405</td><td style="padding:10px;">2443355.8</td></tr>
     </tbody>
   </table>
 </div>
