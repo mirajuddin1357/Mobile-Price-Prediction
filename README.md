@@ -418,6 +418,7 @@
 - Users can input smartphone features and get price predictions in real-time.
 - <div
     style="border-radius:10px; border:#8B0000 solid; padding:10px; background-color:#FAF3F3; font-size:100%; text-align:left; color:#222;">
-    Visit deployed app: <a href="https://mobile-price-prediction-ml.streamlit.app/" target="_blank">Click here to open the Mobile Price Prediction App</a>
+    Visit deployed app: <a href="https://mobile-price-prediction-1.streamlit.app/" target="_blank">Click here to open the Mobile Price Prediction App</a>
 </div>
+
 
